@@ -1,27 +1,19 @@
-body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+body { font-family: 'Inter', sans-serif; }
+
+.radar-scan { animation: scan 4s linear infinite; }
+
+@keyframes scan { 
+    0% { transform: rotate(0deg); } 
+    100% { transform: rotate(360deg); } 
 }
 
-.radar-scan {
-    animation: scan 4s linear infinite;
-}
+/* 隱藏捲軸 */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 
-@keyframes scan {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-/* 隱藏捲軸但保持功能 */
-.scrollbar-hide::-webkit-scrollbar {
-    display: none;
-}
-
-.scrollbar-hide {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+/* 過濾按鈕激活樣式 */
+.filter-btn.active {
+    background-color: #2563eb; /* blue-600 */
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(191, 219, 254, 0.5);
 }

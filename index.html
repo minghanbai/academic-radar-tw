@@ -4,23 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TW Academic Radar | 台灣學術職缺觀測站</title>
-    <!-- 引入 React 和 Babel (用於解析 JSX) -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <!-- 引入 Tailwind CSS -->
+    <!-- 只引入 Tailwind CSS 和 圖示庫 (CDN) -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- 引入 Phosphor Icons (圖示庫) -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     
-    <!-- 引入自定義樣式 -->
+    <!-- 引入自定義 CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-slate-50 text-slate-800">
 
-    <div id="root"></div>
+    <div class="min-h-screen pb-20">
+        <!-- Header -->
+        <header class="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
+            <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <div class="bg-blue-600 text-white p-2 rounded-lg radar-scan">
+                        <i class="ph ph-radar text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-slate-900 tracking-tight">TW Academic Radar</h1>
+                        <p className="text-xs text-slate-500 font-medium">台灣學術職缺觀測站</p>
+                    </div>
+                </div>
+                <div class="hidden md:block text-xs text-slate-400">
+                    Powered by GitHub Actions (Vanilla JS)
+                </div>
+            </div>
+        </header>
 
-    <!-- 引入主程式 (注意 type="text/babel") -->
-    <script type="text/babel" src="app.js"></script>
+        <main class="max-w-5xl mx-auto px-4 py-8">
+            <!-- 搜尋與篩選區 -->
+            <div class="mb-8 space-y-6">
+                <div class="text-center md:text-left">
+                    <h2 class="text-2xl font-bold text-slate-800 mb-2">探索您的學術生涯</h2>
+                    <p class="text-slate-500">自動彙整教育部與國科會職缺，每日更新。</p>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="relative flex-1">
+                        <!-- 搜尋圖示垂直置中 -->
+                        <div class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg flex items-center">
+                            <i class="ph ph-magnifying-glass"></i>
+                        </div>
+                        <input 
+                            type="text" 
+                            id="search-input"
+                            placeholder="搜尋職稱、學校或系所..." 
+                            class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-sm"
+                        >
+                    </div>
+                    <div class="flex gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide" id="filter-container">
+                        <button class="filter-btn active px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="all">
+                            <i class="ph ph-briefcase"></i> 全部
+                        </button>
+                        <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="faculty">
+                            <i class="ph ph-graduation-cap"></i> 專任教職
+                        </button>
+                        <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="postdoc">
+                            <i class="ph ph-flask"></i> 博士後
+                        </button>
+                        <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="assistant">
+                            <i class="ph ph-users"></i> 研究助理
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading 狀態 -->
+            <div id="loading" class="text-center py-20 text-slate-400">
+                <i class="ph ph-radar text-4xl mx-auto mb-4 animate-spin"></i>
+                <p>正在掃描職缺數據...</p>
+            </div>
+
+            <!-- 職缺列表容器 -->
+            <div id="job-list" class="grid gap-4 hidden">
+                <!-- 職缺卡片會由 JS 動態插入這裡 -->
+            </div>
+
+            <!-- 無資料顯示 -->
+            <div id="no-data" class="hidden text-center py-20 bg-white rounded-2xl border border-dashed border-slate-300">
+                <p class="text-slate-500">沒有找到符合的職缺</p>
+                <button id="clear-search" class="mt-2 text-blue-600 hover:underline text-sm">清除篩選條件</button>
+            </div>
+
+            <footer class="mt-12 text-center text-slate-400 text-sm border-t border-slate-100 pt-8">
+                <p id="copyright">© 2025 TW Academic Radar. Powered by GitHub Actions.</p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- 引入主邏輯 JS -->
+    <script src="app.js"></script>
 </body>
 </html>
