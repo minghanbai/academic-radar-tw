@@ -1,0 +1,49 @@
+name: Daily Job Scraper
+
+on:
+  schedule:
+    # 每天 UTC 時間 00:00 執行 (台灣時間早上 08:00)
+    - cron: '0 0 * * *'
+  # 允許你在 GitHub 網頁上手動按按鈕觸發 (方便測試)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # 重要：給予機器人寫入 Repo 的權限
+
+    steps:
+      - name: Checkout code (下載程式碼)
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js (設定 Node 環境)
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies (安裝套件)
+        run: npm install
+
+      - name: Run Scraper (執行爬蟲)
+        run: node scraper.js
+
+      - name: Check for changes (檢查是否有新資料)
+        id: git-check
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add jobs.json
+          # 如果沒有變更，diff-index 會回傳空，這裡做個檢查避免 commit 失敗
+          if git diff-index --quiet HEAD --; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and Push (存檔並上傳)
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git commit -m "Auto-update jobs data: $(date -u)"
+          git push

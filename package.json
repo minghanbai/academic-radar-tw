@@ -1,0 +1,21 @@
+{
+  "name": "tw-academic-radar-scraper",
+  "version": "1.0.0",
+  "description": "Daily job scraper for Academic jobs in Taiwan",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraper",
+    "academic",
+    "jobs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
