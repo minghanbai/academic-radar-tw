@@ -22,6 +22,14 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        /* 隱藏捲軸但保持功能 */
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
@@ -41,18 +49,17 @@
             Search: () => <i className="ph ph-magnifying-glass"></i>,
             Link: () => <i className="ph ph-arrow-square-out"></i>,
             Clock: () => <i className="ph ph-clock"></i>,
+            Hourglass: () => <i className="ph ph-hourglass-high"></i>, // [新增] 截止日期圖示
             Filter: () => <i className="ph ph-faders"></i>
         };
 
         function App() {
             const [jobs, setJobs] = useState([]);
             const [loading, setLoading] = useState(true);
-            const [filterType, setFilterType] = useState('all'); // all, faculty, postdoc, assistant
+            const [filterType, setFilterType] = useState('all'); 
             const [searchTerm, setSearchTerm] = useState('');
 
-            // 模擬從 JSON 檔案讀取資料
             useEffect(() => {
-                // 在 Github Pages 上，這會讀取同目錄下的 jobs.json
                 fetch('./jobs.json')
                     .then(res => res.json())
                     .then(data => {
@@ -65,7 +72,6 @@
                     });
             }, []);
 
-            // 篩選邏輯
             const filteredJobs = useMemo(() => {
                 return jobs.filter(job => {
                     const matchesType = filterType === 'all' || job.type === filterType;
@@ -78,11 +84,10 @@
                 });
             }, [jobs, filterType, searchTerm]);
 
-            // 分類按鈕組件
             const FilterBtn = ({ type, label, icon: Icon }) => (
                 <button 
                     onClick={() => setFilterType(type)}
-                    className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2
+                    className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap
                         ${filterType === type 
                             ? 'bg-blue-600 text-white shadow-md shadow-blue-200' 
                             : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'}`}
@@ -91,7 +96,6 @@
                 </button>
             );
 
-            // 來源標籤顏色
             const getSourceColor = (source) => {
                 switch(source) {
                     case 'NSTC': return 'bg-orange-100 text-orange-700 border-orange-200';
@@ -100,9 +104,16 @@
                 }
             };
 
+            // 判斷截止日期是否快到了 (例如剩 3 天)
+            const isUrgent = (deadline) => {
+                if (!deadline || deadline === '-') return false;
+                const diff = new Date(deadline) - new Date();
+                const days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+                return days >= 0 && days <= 3;
+            };
+
             return (
                 <div className="min-h-screen pb-20">
-                    {/* Header */}
                     <header className="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
                         <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
                             <div className="flex items-center gap-3">
@@ -115,18 +126,17 @@
                                 </div>
                             </div>
                             <div className="hidden md:block text-xs text-slate-400">
-                                資料來源: 國科會 / 教育部 / 各校官網
+                                Powered by GitHub Actions
                             </div>
                         </div>
                     </header>
 
                     <main className="max-w-5xl mx-auto px-4 py-8">
-                        {/* 歡迎與搜尋區 */}
                         <div className="mb-8 space-y-6">
                             <div className="text-center md:text-left">
                                 <h2 className="text-2xl font-bold text-slate-800 mb-2">探索您的學術生涯</h2>
                                 <p className="text-slate-500">
-                                    自動彙整全台學術職缺，包含教職、博士後與研究助理。
+                                    自動彙整教育部與國科會職缺，每日更新。
                                 </p>
                             </div>
 
@@ -150,7 +160,6 @@
                             </div>
                         </div>
 
-                        {/* 列表區 */}
                         {loading ? (
                             <div className="text-center py-20 text-slate-400 animate-pulse">
                                 <Icons.Radar className="text-4xl mx-auto mb-4 animate-spin" />
@@ -171,7 +180,6 @@
                                 ) : (
                                     filteredJobs.map(job => (
                                         <div key={job.id} className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all group relative overflow-hidden">
-                                            {/* 左側顏色條標示類型 */}
                                             <div className={`absolute left-0 top-0 bottom-0 w-1 
                                                 ${job.type === 'faculty' ? 'bg-blue-500' : 
                                                   job.type === 'postdoc' ? 'bg-purple-500' : 'bg-emerald-500'}`} 
@@ -179,12 +187,23 @@
                                             
                                             <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 pl-2">
                                                 <div className="flex-1">
-                                                    <div className="flex flex-wrap items-center gap-2 mb-2">
+                                                    {/* 標籤列：來源 + 刊登日 + 截止日 */}
+                                                    <div className="flex flex-wrap items-center gap-3 mb-2">
                                                         <span className={`text-[10px] px-2 py-0.5 rounded border font-medium ${getSourceColor(job.source)}`}>
                                                             {job.source}
                                                         </span>
+                                                        
+                                                        {/* 刊登日期 */}
                                                         <span className="text-xs text-slate-400 flex items-center gap-1">
-                                                            <Icons.Clock /> {job.date}
+                                                            <Icons.Clock className="text-slate-400" /> 
+                                                            <span className="hidden sm:inline">刊登:</span> {job.date}
+                                                        </span>
+
+                                                        {/* [新增] 截止日期 */}
+                                                        <span className={`text-xs flex items-center gap-1 font-medium
+                                                            ${isUrgent(job.deadline) ? 'text-red-600 animate-pulse' : 'text-slate-500'}`}>
+                                                            <Icons.Hourglass weight="fill" className={isUrgent(job.deadline) ? 'text-red-600' : 'text-slate-400'} /> 
+                                                            截止: {job.deadline || '-'}
                                                         </span>
                                                     </div>
                                                     
@@ -198,7 +217,7 @@
                                                         <span>{job.dept}</span>
                                                     </div>
 
-                                                    <div className="mt-3 flex gap-2">
+                                                    <div className="mt-3 flex flex-wrap gap-2">
                                                         {job.tags && job.tags.map(tag => (
                                                             <span key={tag} className="text-xs bg-slate-100 text-slate-500 px-2 py-1 rounded">
                                                                 #{tag}
