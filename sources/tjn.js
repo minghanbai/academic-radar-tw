@@ -19,8 +19,9 @@ async function fetchTJN(existingIdSet = new Set()) {
 
         try {
             const { data } = await axios.get(targetUrl, {
+                // 使用一般的 User-Agent 以獲取最標準的 HTML
                 headers: { 
-                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36' 
                 },
                 httpsAgent
             });
@@ -29,39 +30,39 @@ async function fetchTJN(existingIdSet = new Set()) {
             let pageJobs = []; 
             let newInThisPage = 0; 
 
-            // [修正點] 改用 .listColor 類別選取，這比 id 更穩定
-            // 先抓出所有列，確認有抓到東西
-            const rows = $('tr.listColor');
-            // console.log(`      (除錯) 這一頁找到了 ${rows.length} 列原始資料`);
-
-            rows.each((i, el) => {
+            // 強制鎖定 id="SearchTable" 的 tbody 下的 tr，排除手機版隱藏表格
+            $('#SearchTable tbody tr').each((i, el) => {
                 const tds = $(el).find('td');
-                // 根據你提供的 HTML，欄位應該有 6 欄
+                // 確保欄位足夠 (根據 HTML 結構，應該有 6 欄)
                 if (tds.length >= 6) {
                     const schoolRaw = $(tds[0]).text().trim(); // Index 0: 徵才單位
                     const title = $(tds[1]).text().trim();      // Index 1: 公告主旨
                     const location = $(tds[2]).text().trim();   // Index 2: 工作地點
                     
+                    // 日期處理：轉換 2025/12/06 -> 2025-12-06
                     const dateRaw = $(tds[3]).text().trim();    // Index 3: 公告日期
                     const date = dateRaw.replace(/\//g, '-');
 
+                    // 截止日期處理 (關鍵!)
                     const deadlineRaw = $(tds[4]).text().trim(); // Index 4: 截止日期
+                    // 如果沒有日期，給予 '-'，確保欄位存在
                     const deadline = deadlineRaw ? deadlineRaw.replace(/\//g, '-') : '-';
 
-                    // 連結處理
+                    // --- 連結處理 (混合模式) ---
+                    // 優先尋找 href，如果 href 是 javascript:; 則尋找 hidden span
                     let link = targetUrl; 
                     const linkContainer = $(tds[5]);
-                    
+                    const aTag = linkContainer.find('a');
+                    const href = aTag.attr('href');
                     const numSpan = linkContainer.find('span[name="num"]');
-                    if (numSpan.length > 0) {
+
+                    if (href && href !== 'javascript:;' && href.includes('Detail')) {
+                        // 情況 A: 正常的 href 連結
+                        link = href.startsWith('http') ? href : baseUrl + href;
+                    } else if (numSpan.length > 0) {
+                        // 情況 B: 隱藏的 span ID
                         const jobNum = numSpan.text().trim();
                         link = `${baseUrl}/EduJin/Opening/Detail?num=${jobNum}`;
-                    } else {
-                        const aTag = linkContainer.find('a');
-                        const href = aTag.attr('href');
-                        if (href && href !== 'javascript:;') {
-                            link = href.startsWith('http') ? href : baseUrl + href;
-                        }
                     }
 
                     // 拆分學校系所
@@ -79,6 +80,7 @@ async function fetchTJN(existingIdSet = new Set()) {
 
                     const id = generateId(schoolRaw, title, date);
 
+                    // 條件：必須有標題 且 是近期職缺
                     if (title && isRecentJob(date)) {
                         const jobData = {
                             id,
@@ -86,7 +88,7 @@ async function fetchTJN(existingIdSet = new Set()) {
                             school,
                             dept,
                             date,
-                            deadline, // 確保這欄位存在
+                            deadline, // 這裡強制寫入 deadline 欄位
                             type: determineType(title),
                             source: 'MOE',
                             link,
@@ -103,11 +105,11 @@ async function fetchTJN(existingIdSet = new Set()) {
             
             console.log(`      第 ${page} 頁解析完畢：共 ${pageJobs.length} 筆 (新: ${newInThisPage})`);
             
+            // 翻頁判斷
             if (pageJobs.length === 0) {
-                // 如果連一筆都沒抓到，可能是網頁結構變了，或是真的沒資料
-                // 為了避免誤判，我們只在確定有資料但都是舊的時候才停
                 keepGoing = false;
             } else if (newInThisPage === 0 && existingIdSet.size > 0) {
+                console.log('      [停止] 這一頁全部都是舊資料，停止翻頁。');
                 keepGoing = false;
             } else {
                 page++;
@@ -119,7 +121,7 @@ async function fetchTJN(existingIdSet = new Set()) {
             keepGoing = false;
         }
     }
-    console.log(`✅ TJN 掃描結束: 共 ${allNewJobs.length} 筆`);
+    console.log(`✅ TJN 掃描結束: 共 ${allNewJobs.length} 筆資料`);
     return allNewJobs;
 }
 

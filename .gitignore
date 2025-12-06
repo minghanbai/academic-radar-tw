@@ -1,0 +1,12 @@
+# 忽略依賴套件 (這是一定要忽略的，檔案非常多)
+node_modules/
+
+# 忽略系統產生的雜檔 (Mac 常見)
+.DS_Store
+
+# 忽略 Log 檔
+*.log
+
+# (選用) 如果你不想上傳鎖定檔，也可以忽略它
+# 但通常建議保留 package-lock.json 以確保 GitHub Action 安裝的版本跟你的電腦一樣
+# package-lock.json
