@@ -1,0 +1,79 @@
+[
+  {
+    "id": "job_001",
+    "title": "資訊工程學系 - 誠徵專任助理教授 (含) 以上",
+    "school": "國立臺灣大學",
+    "dept": "資訊工程學系",
+    "date": "2023-12-06",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw",
+    "tags": ["AI", "資安"]
+  },
+  {
+    "id": "job_002",
+    "title": "工業設計學系 - 徵聘專任教師",
+    "school": "國立成功大學",
+    "dept": "規劃與設計學院",
+    "date": "2023-12-05",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw",
+    "tags": ["產品設計", "人因工程"]
+  },
+  {
+    "id": "job_003",
+    "title": "博士後研究員 (國科會計畫)",
+    "school": "國立清華大學",
+    "dept": "服務科學研究所",
+    "date": "2023-12-04",
+    "type": "postdoc",
+    "source": "Custom",
+    "link": "#",
+    "tags": ["質性研究", "服務設計"]
+  },
+  {
+    "id": "job_004",
+    "title": "專任行政助理 (國際處)",
+    "school": "國立陽明交通大學",
+    "dept": "國際事務處",
+    "date": "2023-12-04",
+    "type": "assistant",
+    "source": "School_Site",
+    "link": "#",
+    "tags": ["英文流利", "行政"]
+  },
+  {
+    "id": "job_005",
+    "title": "建築系 - 專案教學人員",
+    "school": "東海大學",
+    "dept": "創意設計暨藝術學院",
+    "date": "2023-12-03",
+    "type": "faculty",
+    "source": "School_Site",
+    "link": "#",
+    "tags": ["建築設計", "數位製造"]
+  },
+  {
+    "id": "job_006",
+    "title": "人文社會科學研究中心 - 博士後研究",
+    "school": "中央研究院",
+    "dept": "人社中心",
+    "date": "2023-12-02",
+    "type": "postdoc",
+    "source": "NSTC",
+    "link": "#",
+    "tags": ["社會學", "GIS"]
+  },
+  {
+    "id": "job_007",
+    "title": "視覺傳達設計系 - 徵聘講師級以上專業技術人員",
+    "school": "國立臺灣科技大學",
+    "dept": "設計學院",
+    "date": "2023-12-01",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "#",
+    "tags": ["動態設計", "UI/UX"]
+  }
+]
