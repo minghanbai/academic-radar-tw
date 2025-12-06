@@ -2,12 +2,8 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const { httpsAgent, determineType, generateId, isRecentJob } = require('../utils');
 
-// 為了不讓對方伺服器覺得我們是攻擊，翻頁時休息一下
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-/**
- * @param {Set} existingIdSet - 主程式傳來的「已知 ID 集合」
- */
 async function fetchTJN(existingIdSet = new Set()) {
     console.log('🔍 開始掃描教育部大專教師人才網 (TJN)...');
     
@@ -33,25 +29,40 @@ async function fetchTJN(existingIdSet = new Set()) {
             let pageJobs = []; 
             let newInThisPage = 0; 
 
-            $('tbody tr').each((i, el) => {
+            // 針對該網站的 Table ID 進行精確選取
+            $('#SearchTable tbody tr').each((i, el) => {
                 const tds = $(el).find('td');
-                // 確保欄位足夠 (TJN 結構通常有 6 欄)
-                if (tds.length >= 5) {
-                    const schoolRaw = $(tds[0]).text().trim();
-                    const title = $(tds[1]).text().trim();
-                    const location = $(tds[2]).text().trim();
+                // 確保欄位足夠 (根據您的 HTML，應該有 6 欄)
+                if (tds.length >= 6) {
+                    const schoolRaw = $(tds[0]).text().trim(); // 徵才單位
+                    const title = $(tds[1]).text().trim();      // 公告主旨
+                    const location = $(tds[2]).text().trim();   // 工作地點
                     
-                    // 刊登日期 (Index 3)
-                    const dateRaw = $(tds[3]).text().trim();
+                    // 日期處理：轉換 2025/12/04 -> 2025-12-04
+                    const dateRaw = $(tds[3]).text().trim();    // 職缺公告日期
                     const date = dateRaw.replace(/\//g, '-');
 
-                    // [新增] 截止日期 (Index 4)
-                    const deadlineRaw = $(tds[4]).text().trim();
+                    const deadlineRaw = $(tds[4]).text().trim(); // 報名截止日期
                     const deadline = deadlineRaw ? deadlineRaw.replace(/\//g, '-') : '-';
 
-                    // 連結 (Index 5)
-                    const relativeLink = $(tds[5]).find('a').attr('href');
-                    const link = relativeLink ? baseUrl + relativeLink : targetUrl;
+                    // --- 連結處理 (修正版) ---
+                    // 網站改版後 href 為 javascript:;，需抓取 hidden span 中的 num
+                    let link = targetUrl; // 預設回列表頁
+                    const linkContainer = $(tds[5]);
+                    
+                    // 嘗試抓取 num ID
+                    const numSpan = linkContainer.find('span[name="num"]');
+                    if (numSpan.length > 0) {
+                        const jobNum = numSpan.text().trim();
+                        link = `${baseUrl}/EduJin/Opening/Detail?num=${jobNum}`;
+                    } else {
+                        // 舊版備用邏輯：直接抓 href
+                        const aTag = linkContainer.find('a');
+                        const href = aTag.attr('href');
+                        if (href && href !== 'javascript:;') {
+                            link = href.startsWith('http') ? href : baseUrl + href;
+                        }
+                    }
 
                     // 拆分學校系所
                     let school = schoolRaw;
@@ -68,14 +79,15 @@ async function fetchTJN(existingIdSet = new Set()) {
 
                     const id = generateId(schoolRaw, title, date);
 
+                    // 條件：必須有標題 且 是近期職缺
                     if (title && isRecentJob(date)) {
                         const jobData = {
                             id,
                             title,
                             school,
                             dept,
-                            date,     // 刊登日
-                            deadline, // [新增] 截止日
+                            date,
+                            deadline, 
                             type: determineType(title),
                             source: 'MOE',
                             link,
@@ -83,38 +95,25 @@ async function fetchTJN(existingIdSet = new Set()) {
                         };
 
                         pageJobs.push(jobData);
-
-                        if (!existingIdSet.has(id)) {
-                            newInThisPage++;
-                        }
+                        if (!existingIdSet.has(id)) newInThisPage++;
                     }
                 }
             });
 
-            if (pageJobs.length > 0) {
-                allNewJobs = [...allNewJobs, ...pageJobs];
-            }
-
-            console.log(`      第 ${page} 頁解析完畢：共 ${pageJobs.length} 筆，其中 ${newInThisPage} 筆為新資料`);
-
-            if (pageJobs.length === 0) {
-                console.log('      [停止] 這一頁沒有任何資料，停止翻頁。');
-                keepGoing = false;
-            } else if (newInThisPage === 0 && existingIdSet.size > 0) {
-                console.log('      [停止] 這一頁全部都是舊資料，停止翻頁。');
-                keepGoing = false;
-            } else {
-                page++;
-                await sleep(1000);
-            }
+            if (pageJobs.length > 0) allNewJobs = [...allNewJobs, ...pageJobs];
+            
+            console.log(`      第 ${page} 頁：${pageJobs.length} 筆 (新: ${newInThisPage})`);
+            
+            if (pageJobs.length === 0) keepGoing = false;
+            else if (newInThisPage === 0 && existingIdSet.size > 0) keepGoing = false;
+            else { page++; await sleep(1000); }
 
         } catch (error) {
             console.error(`❌ 第 ${page} 頁讀取失敗:`, error.message);
             keepGoing = false;
         }
     }
-
-    console.log(`✅ 教育部 (TJN) 掃描結束: 共收集 ${allNewJobs.length} 筆資料`);
+    console.log(`✅ TJN 掃描結束: 共 ${allNewJobs.length} 筆`);
     return allNewJobs;
 }
 
