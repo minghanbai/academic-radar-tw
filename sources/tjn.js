@@ -29,34 +29,34 @@ async function fetchTJN(existingIdSet = new Set()) {
             let pageJobs = []; 
             let newInThisPage = 0; 
 
-            // 針對該網站的 Table ID 進行精確選取
-            $('#SearchTable tbody tr').each((i, el) => {
+            // [修正點] 改用 .listColor 類別選取，這比 id 更穩定
+            // 先抓出所有列，確認有抓到東西
+            const rows = $('tr.listColor');
+            // console.log(`      (除錯) 這一頁找到了 ${rows.length} 列原始資料`);
+
+            rows.each((i, el) => {
                 const tds = $(el).find('td');
-                // 確保欄位足夠 (根據您的 HTML，應該有 6 欄)
+                // 根據你提供的 HTML，欄位應該有 6 欄
                 if (tds.length >= 6) {
-                    const schoolRaw = $(tds[0]).text().trim(); // 徵才單位
-                    const title = $(tds[1]).text().trim();      // 公告主旨
-                    const location = $(tds[2]).text().trim();   // 工作地點
+                    const schoolRaw = $(tds[0]).text().trim(); // Index 0: 徵才單位
+                    const title = $(tds[1]).text().trim();      // Index 1: 公告主旨
+                    const location = $(tds[2]).text().trim();   // Index 2: 工作地點
                     
-                    // 日期處理：轉換 2025/12/04 -> 2025-12-04
-                    const dateRaw = $(tds[3]).text().trim();    // 職缺公告日期
+                    const dateRaw = $(tds[3]).text().trim();    // Index 3: 公告日期
                     const date = dateRaw.replace(/\//g, '-');
 
-                    const deadlineRaw = $(tds[4]).text().trim(); // 報名截止日期
+                    const deadlineRaw = $(tds[4]).text().trim(); // Index 4: 截止日期
                     const deadline = deadlineRaw ? deadlineRaw.replace(/\//g, '-') : '-';
 
-                    // --- 連結處理 (修正版) ---
-                    // 網站改版後 href 為 javascript:;，需抓取 hidden span 中的 num
-                    let link = targetUrl; // 預設回列表頁
+                    // 連結處理
+                    let link = targetUrl; 
                     const linkContainer = $(tds[5]);
                     
-                    // 嘗試抓取 num ID
                     const numSpan = linkContainer.find('span[name="num"]');
                     if (numSpan.length > 0) {
                         const jobNum = numSpan.text().trim();
                         link = `${baseUrl}/EduJin/Opening/Detail?num=${jobNum}`;
                     } else {
-                        // 舊版備用邏輯：直接抓 href
                         const aTag = linkContainer.find('a');
                         const href = aTag.attr('href');
                         if (href && href !== 'javascript:;') {
@@ -79,7 +79,6 @@ async function fetchTJN(existingIdSet = new Set()) {
 
                     const id = generateId(schoolRaw, title, date);
 
-                    // 條件：必須有標題 且 是近期職缺
                     if (title && isRecentJob(date)) {
                         const jobData = {
                             id,
@@ -87,7 +86,7 @@ async function fetchTJN(existingIdSet = new Set()) {
                             school,
                             dept,
                             date,
-                            deadline, 
+                            deadline, // 確保這欄位存在
                             type: determineType(title),
                             source: 'MOE',
                             link,
@@ -102,11 +101,18 @@ async function fetchTJN(existingIdSet = new Set()) {
 
             if (pageJobs.length > 0) allNewJobs = [...allNewJobs, ...pageJobs];
             
-            console.log(`      第 ${page} 頁：${pageJobs.length} 筆 (新: ${newInThisPage})`);
+            console.log(`      第 ${page} 頁解析完畢：共 ${pageJobs.length} 筆 (新: ${newInThisPage})`);
             
-            if (pageJobs.length === 0) keepGoing = false;
-            else if (newInThisPage === 0 && existingIdSet.size > 0) keepGoing = false;
-            else { page++; await sleep(1000); }
+            if (pageJobs.length === 0) {
+                // 如果連一筆都沒抓到，可能是網頁結構變了，或是真的沒資料
+                // 為了避免誤判，我們只在確定有資料但都是舊的時候才停
+                keepGoing = false;
+            } else if (newInThisPage === 0 && existingIdSet.size > 0) {
+                keepGoing = false;
+            } else {
+                page++;
+                await sleep(1000);
+            }
 
         } catch (error) {
             console.error(`❌ 第 ${page} 頁讀取失敗:`, error.message);
