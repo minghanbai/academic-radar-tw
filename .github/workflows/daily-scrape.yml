@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js (設定 Node 環境)
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20' # 修改這裡：從 18 改成 20
 
       - name: Install dependencies (安裝套件)
         run: npm install
