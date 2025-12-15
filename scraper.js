@@ -28,11 +28,10 @@ const JOBS_FILE = path.join(__dirname, 'jobs.json');
         }
     }
 
-    // 2. 執行抓取任務 (將 existingIdSet 傳入 fetchTJN)
-    // 這樣 tjn.js 就能知道什麼時候該停下來
+    // 2. 執行抓取任務 (將 existingIdSet 傳入 fetchTJN 與 fetchNSTC)
     const [tjnJobs, nstcJobs] = await Promise.all([
         fetchTJN(existingIdSet), 
-        fetchNSTC()
+        fetchNSTC(existingIdSet) // [修正] 這裡也要傳入 ID Set
     ]);
 
     const newFetchedJobs = [...tjnJobs, ...nstcJobs];

@@ -49,23 +49,46 @@
                         <input 
                             type="text" 
                             id="search-input"
-                            placeholder="搜尋職稱、學校或系所..." 
+                            placeholder="搜尋職稱、學校、系所或地點..." 
                             class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-sm"
                         >
                     </div>
-                    <div class="flex gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide" id="filter-container">
-                        <button class="filter-btn active px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="all">
-                            <i class="ph ph-briefcase"></i> 全部
-                        </button>
-                        <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="faculty">
-                            <i class="ph ph-graduation-cap"></i> 專任教職
-                        </button>
-                        <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="postdoc">
-                            <i class="ph ph-flask"></i> 博士後
-                        </button>
-                        <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap bg-white text-slate-600 border border-slate-200 hover:bg-slate-100" data-type="assistant">
-                            <i class="ph ph-users"></i> 研究助理
-                        </button>
+                    
+                    <!-- 篩選器群組 (Flex 排列) -->
+                    <div class="flex gap-2 w-full md:w-auto">
+                        
+                        <!-- 1. 職缺類型下拉選單 -->
+                        <div class="relative flex-1 md:w-40">
+                            <div class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg flex items-center">
+                                <i class="ph ph-briefcase"></i>
+                            </div>
+                            <select id="type-select" class="w-full pl-10 pr-8 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-sm bg-white appearance-none cursor-pointer text-slate-600 text-sm">
+                                <option value="all">所有類型</option>
+                                <option value="faculty">專任教職</option>
+                                <option value="project">專案教職</option>
+                                <option value="adjunct">兼任教職</option>
+                                <option value="postdoc">博士後</option>
+                                <option value="assistant">研究助理</option>
+                                <option value="other">其他</option>
+                            </select>
+                            <div class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm pointer-events-none">
+                                <i class="ph ph-caret-down"></i>
+                            </div>
+                        </div>
+
+                        <!-- 2. 地區下拉選單 -->
+                        <div class="relative flex-1 md:w-40">
+                            <div class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg flex items-center">
+                                <i class="ph ph-map-pin"></i>
+                            </div>
+                            <select id="location-select" class="w-full pl-10 pr-8 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-sm bg-white appearance-none cursor-pointer text-slate-600 text-sm">
+                                <option value="">所有地區</option>
+                                <!-- JS 會自動填入選項 -->
+                            </select>
+                            <div class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm pointer-events-none">
+                                <i class="ph ph-caret-down"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,6 +117,7 @@
     </div>
 
     <!-- 引入主邏輯 JS -->
+     <script src="data/schools.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
