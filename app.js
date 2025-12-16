@@ -54,40 +54,10 @@ async function fetchJobs() {
                 // 2. 研究助理
                 // [修正] 移除 !isResearchOrPostdoc 判斷，允許同時標記
                 // 注意：這裡移除了 else if 結構，改為獨立的 if
-                
-                const isResearchAssistant = 
-                    t.includes('研究助理') || 
-                    t.includes('assistant') || 
-                    t.includes('兼任助理') ||
-                    (t.includes('專任助理') && !t.includes('教授'));
-
-                // [新增] 擴充研究人員的判定
-                const isResearcher = 
-                    t.includes('級研究人員') ||
-                    t.includes('專任研究人員') ||
-                    t.includes('專案研究人員') ||
-                    t.includes('編制內研究人員') ||
-                    t.includes('編制外研究人員') ||
-                    t.includes('researcher');
-
-                // [關鍵] 如果已經是博士後，且標題是因為 "博士後研究人員" 才命中 isResearcher，則不應加 assistant 標籤
-                // 我們需要確保這個 "研究人員" 不是 "博士後" 的一部分
-                // 但因為這很難完全切割 (除非用 regex)，我們採取策略：
-                // 如果已經是 postdoc，且標題沒有明確的 "助理" 字眼，則不加 assistant
-                
-                let shouldAddAssistant = false;
-
-                if (isResearchAssistant) {
-                    shouldAddAssistant = true;
-                } else if (isResearcher) {
-                    // 如果命中了 "研究人員"，但已經是博士後，則不加 assistant
-                    // 除非標題明確有 "研究助理" (上面 isResearchAssistant 已處理)
-                    if (!types.has('postdoc')) {
-                        shouldAddAssistant = true;
-                    }
-                }
-
-                if (shouldAddAssistant) {
+                if (
+                    (t.includes('研究助理') || t.includes('assistant') || t.includes('研究人員') || t.includes('researcher') || t.includes('兼任助理')) ||
+                    (t.includes('專任助理') && !t.includes('教授'))
+                ) {
                      if (!t.includes('行政') || t.includes('行政助理')) {
                         types.add('assistant');
                         isResearchOrPostdoc = true;
@@ -228,13 +198,6 @@ function renderJobs() {
             return `<span class="text-[10px] px-2 py-0.5 rounded border font-medium mr-1 badge-${t}">${typeLabels[t] || t}</span>`;
         }).join('');
 
-        let borderClass = 'bg-slate-400';
-        if (job.types.includes('adjunct')) borderClass = 'bg-cyan-500';
-        if (job.types.includes('project')) borderClass = 'bg-orange-500';
-        if (job.types.includes('assistant')) borderClass = 'bg-emerald-500'; 
-        if (job.types.includes('postdoc')) borderClass = 'bg-purple-500';
-        if (job.types.includes('faculty')) borderClass = 'bg-blue-500'; 
-
         let urgentClass = 'text-slate-500';
         let urgentIconClass = 'text-slate-400';
         let deadlineText = job.deadline || '-';
@@ -254,19 +217,20 @@ function renderJobs() {
 
         return `
         <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all group relative overflow-hidden">
-            <div class="absolute left-0 top-0 bottom-0 w-1 ${borderClass}"></div>
-            
             <div class="flex flex-col md:flex-row md:items-start justify-between gap-4 pl-2">
                 <div class="flex-1">
                     <div class="flex flex-wrap items-center gap-y-2 gap-x-3 mb-2">
+                        <!-- 來源 -->
                         <span class="text-[10px] px-2 py-0.5 rounded border font-medium ${sourceBadgeClass}">
                             ${job.source}
                         </span>
                         
+                        <!-- 動態分類標籤區 -->
                         <div class="flex items-center">
                             ${typeBadgesHtml}
                         </div>
 
+                        <!-- 時間資訊 -->
                         <span class="text-xs text-slate-400 flex items-center gap-1">
                             <i class="ph ph-clock"></i> 
                             <span class="hidden sm:inline">刊登:</span> ${job.date}
