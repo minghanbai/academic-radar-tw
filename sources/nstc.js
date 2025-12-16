@@ -1,23 +1,39 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const { httpsAgent, determineType, generateId, isRecentJob } = require('../utils');
-// 引用學校地點資料庫
-const { inferLocation } = require('../data/schools.js');
+// 引用學校地點資料庫 (假設你的專案結構中有 data/schools.js，若無則使用內建推論)
+// 為了確保獨立運作，這裡保留內建推論函式，但建議搭配 data/schools.js 使用
+let inferLocation = (name) => '';
+try {
+    const schoolsData = require('../data/schools.js');
+    if (schoolsData && schoolsData.inferLocation) {
+        inferLocation = schoolsData.inferLocation;
+    }
+} catch (e) {
+    // console.log("Note: data/schools.js not found, location inference might be limited.");
+}
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 // 智慧標題解析器
 function parseTitle(fullTitle) {
-    // 移除 [徵才]、【公告】等前綴
-    let cleanTitle = fullTitle.replace(/^【.*?】/, '').replace(/^\[.*?\]/, '').trim();
+    // 1. 清理標題：移除 【】 [] () 等括號，替換為空白，避免黏在一起
+    // 例如 "【國立中興大學-食品系】" -> " 國立中興大學-食品系 "
+    let cleanTitle = fullTitle.replace(/[【】\[\]()（）]/g, ' ').trim();
 
+    // 2. 學校關鍵字清單 (注意順序：長詞優先)
     const schoolPatterns = [
         /^(.*?中央研究院)/, /^(.*?中研院)/,
         /^(.*?國家衛生研究院)/, /^(.*?國衛院)/,
+        /^(.*?國家實驗研究院)/, /^(.*?國研院)/,
         /^(.*?科技大學)/, /^(.*?技術學院)/,
         /^(.*?醫學大學)/, /^(.*?師範大學)/, /^(.*?教育大學)/,
         /^(.*?大學)/, /^(.*?學院)/,
-        /^(.*?專科學校)/, /^(.*?高中)/, /^(.*?高職)/
+        /^(.*?專科學校)/, /^(.*?高中)/, /^(.*?高職)/,
+        // 加入常見簡稱
+        /^(.*?台大)/, /^(.*?清大)/, /^(.*?陽明交大)/, /^(.*?交大)/, /^(.*?成大)/, 
+        /^(.*?政大)/, /^(.*?中央)/, /^(.*?中興)/, /^(.*?中山)/, /^(.*?中正)/, 
+        /^(.*?師大)/, /^(.*?高醫)/, /^(.*?中國醫)/, /^(.*?中山醫)/, /^(.*?北醫)/
     ];
 
     let school = '';
@@ -27,20 +43,23 @@ function parseTitle(fullTitle) {
     for (const pattern of schoolPatterns) {
         const match = cleanTitle.match(pattern);
         if (match) {
-            school = match[1];
-            let remaining = cleanTitle.substring(school.length).trim();
+            // 抓出學校名稱 (trim 掉多餘空白)
+            school = match[1].trim();
             
-            // 清理開頭
-            remaining = remaining.replace(/^[-\s]+/, '')
-                                 .replace(/^(?:誠徵|徵求|徵聘|徵|聘|約聘|招募|公告|啟事|甄選)\s*/, '');
+            // 剩下的部分用來找系所
+            // 移除學校名稱，並清理開頭的連接符 (- / \ 空白)
+            let remaining = cleanTitle.substring(cleanTitle.indexOf(school) + school.length).trim();
+            remaining = remaining.replace(/^[-\s\/\\|]+/, '')
+                                 .replace(/^(?:誠徵|徵求|徵聘|徵|聘|約聘|招募|公告|啟事|甄選|禮聘)\s*/, '');
             
-            // 策略 A: 優先抓取 "系/所/中心" 結尾的單位 (優先度高)
+            // 策略 A: 優先抓取 "系/所/中心/處/室" 結尾的單位
+            // 允許中間有空白 (例如 "國際事務處")
             const unitMatch = remaining.match(/^(.+?(?:學位學程|學程|系|所|學院|中心|處|室|組|科|部|醫院))/);
             
             // 策略 B: 動詞切割 (後備)
-            const splitMatch = remaining.match(/^(.*?)(?:誠徵|徵求|徵聘|徵|聘|約聘|招募|公告|啟事|甄選|人員)/);
+            const splitMatch = remaining.match(/^(.*?)(?:誠徵|徵求|徵聘|徵|聘|約聘|招募|公告|啟事|甄選|人員|禮聘)/);
             
-            if (unitMatch && unitMatch[1].length < 25) { // 稍微放寬長度限制
+            if (unitMatch && unitMatch[1].length < 30) {
                 dept = unitMatch[1].trim();
             } else if (splitMatch && splitMatch[1].length > 1) {
                 dept = splitMatch[1].trim();
@@ -50,6 +69,9 @@ function parseTitle(fullTitle) {
                 dept = "詳見標題";
             }
             
+            // 修正系所名稱：如果抓到的系所還包含 "-" 或空白開頭，再修一次
+            dept = dept.replace(/^[-\s]+/, '');
+
             found = true;
             break;
         }
@@ -59,6 +81,14 @@ function parseTitle(fullTitle) {
         school = "國科會"; 
         dept = "詳見標題";
     }
+
+    // 正規化學校名稱 (把簡稱轉全稱，讓地點推論更準)
+    if (school === '台大') school = '國立臺灣大學';
+    if (school === '成大') school = '國立成功大學';
+    if (school === '清大') school = '國立清華大學';
+    if (school === '政大') school = '國立政治大學';
+    if (school === '中興') school = '國立中興大學';
+    // ... 其他簡稱可視需求加入
 
     return { school, dept };
 }
@@ -94,9 +124,11 @@ async function fetchNSTC(existingIdSet = new Set()) {
                 
                 if (h3.find('.news_top').length > 0) return;
 
-                const title = h3.clone().children().remove().end().text().trim();
+                // 取得原始標題
+                const rawTitle = h3.clone().children().remove().end().text().trim();
 
-                if (title.includes("免責聲明") || title.includes("詐騙")) return;
+                // 基本過濾
+                if (rawTitle.includes("免責聲明") || rawTitle.includes("詐騙")) return;
 
                 const dateRaw = linkEl.find('.date').text().trim();
                 const date = dateRaw; 
@@ -104,23 +136,24 @@ async function fetchNSTC(existingIdSet = new Set()) {
                 const href = linkEl.attr('href');
                 const link = href ? (href.startsWith('http') ? href : baseUrl + href) : targetUrl;
 
-                const { school, dept } = parseTitle(title);
+                // 使用強化版解析器
+                const { school, dept } = parseTitle(rawTitle);
                 
-                // 自動推論地點
+                // 推論地點
                 const location = inferLocation(school);
                 const tags = location ? [location] : [];
 
-                const id = generateId(school, title, date);
+                const id = generateId(school, rawTitle, date);
 
-                if (title && isRecentJob(date)) {
+                if (rawTitle && isRecentJob(date)) {
                     const jobData = {
                         id,
-                        title,
+                        title: rawTitle, // 標題保留原始的比較好讀
                         school,
                         dept,
                         date,
                         deadline: '-', 
-                        type: determineType(title),
+                        type: determineType(rawTitle),
                         source: 'NSTC',
                         link,
                         tags: tags 
