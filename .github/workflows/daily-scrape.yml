@@ -2,8 +2,8 @@ name: Daily Job Scraper
 
 on:
   schedule:
-    # 每天 UTC 時間 00:00 執行 (台灣時間早上 08:00)
-    - cron: '0 0 * * *'
+    # 每天 UTC 時間 10:00 執行 (台灣時間 18:00)
+    - cron: '0 10 * * *'
   # 允許你在 GitHub 網頁上手動按按鈕觸發 (方便測試)
   workflow_dispatch:
 
@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js (設定 Node 環境)
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # 修改這裡：從 18 改成 20
+          node-version: '20'
 
       - name: Install dependencies (安裝套件)
         run: npm install
