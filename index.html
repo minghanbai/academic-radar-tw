@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 網站基本資訊 -->
     <title>TW Academic Radar | 台灣學術職缺觀測站</title>
-    <!-- 只引入 Tailwind CSS 和 圖示庫 (CDN) -->
+    <meta name="description" content="自動彙整教育部與國科會學術職缺，提供台灣專任教職、博士後研究、研究助理等職缺的每日更新聚合服務。">
+    <meta name="keywords" content="台灣學術職缺, 專任教職, 博士後研究, 研究助理, 大專院校徵才, 國科會職缺, 教育部職缺">
+    <meta name="author" content="Ming-Han Bai">
+    
+    <!-- Open Graph / Facebook (社交分享優化) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://minghanbai.github.io/academic-radar-tw/">
+    <meta property="og:title" content="TW Academic Radar | 台灣學術職缺觀測站">
+    <meta property="og:description" content="一站式查詢全台學術職缺，每日自動更新。專為台灣學術工作者設計的職缺搜尋引擎。">
+    <meta property="og:image" content="https://minghanbai.github.io/academic-radar-tw/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://minghanbai.github.io/academic-radar-tw/">
+    <meta property="twitter:title" content="TW Academic Radar | 台灣學術職缺觀測站">
+    <meta property="twitter:description" content="一站式查詢全台學術職缺，每日自動更新。">
+
+    <!-- 防止被誤判為釣魚網站的宣告 -->
+    <meta name="application-name" content="TW Academic Radar">
+    <meta name="apple-mobile-web-app-title" content="Academic Radar">
+    <link rel="canonical" href="https://minghanbai.github.io/academic-radar-tw/">
+    
+    <!-- 引入 Tailwind CSS 和 圖示庫 (CDN) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     
@@ -110,14 +134,24 @@
                 <button id="clear-search" class="mt-2 text-blue-600 hover:underline text-sm">清除篩選條件</button>
             </div>
 
-            <footer class="mt-12 text-center text-slate-400 text-sm border-t border-slate-100 pt-8">
-                <p id="copyright">© 2025 TW Academic Radar. Powered by GitHub Actions.</p>
+            <footer class="mt-16 text-center text-slate-400 text-xs border-t border-slate-100 pt-8 pb-4">
+                <div class="mb-2">
+                    <span id="copyright">© 2025 TW Academic Radar.</span>
+                    <span class="mx-2">|</span>
+                    <a href="https://minghanbai.github.io/" target="_blank" class="hover:text-blue-600 transition-colors">Ming-Han Bai</a>
+                </div>
+                <div class="flex justify-center gap-4">
+                    <a href="privacy.html" class="hover:text-slate-600 transition-colors">隱私權政策</a>
+                    <a href="https://github.com/minghanbai/academic-radar-tw" target="_blank" class="hover:text-slate-600 transition-colors">GitHub Repository</a>
+                </div>
             </footer>
         </main>
     </div>
 
+    <!-- [重要] 引入學校地點資料庫 (必須在 app.js 之前) -->
+    <script src="data/schools.js"></script>
+    
     <!-- 引入主邏輯 JS -->
-     <script src="data/schools.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
