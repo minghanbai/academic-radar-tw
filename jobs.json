@@ -173,12 +173,12 @@
     "school": "中國醫藥大學",
     "dept": "通識教育中心",
     "date": "2025-12-18",
-    "deadline": "2026-02-11",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28123",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/38c9655c-2211-410f-af7b-af7b53a2a2f7?l=ch",
     "tags": [
-      "臺中市北屯區"
+      "臺中市"
     ]
   },
   {
@@ -365,16 +365,16 @@
   },
   {
     "id": "5ZyL56uL5b2w5YyW5bir56+E5aSn5a24fOWci+eri+W9sOWMluW4q+evhOWkp+WtuOeJueauiuaVmeiCsuWtuOezu+W+teiBmOWwiOS7u+W4q+izhzLlkI18MjAyNS0xMi0xOA==",
-    "title": "【國立彰化師範大學 特殊教育學系】徵聘專任師資2名",
+    "title": "國立彰化師範大學特殊教育學系徵聘【專任】師資2名",
     "school": "國立彰化師範大學",
     "dept": "特殊教育學系",
     "date": "2025-12-18",
-    "deadline": "-",
+    "deadline": "2026-02-26",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://apss.ncue.edu.tw/odedi/doc_page.php?id=.0-4600.2-644.#",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28131",
     "tags": [
-      "彰化縣"
+      "彰化縣彰化市"
     ]
   },
   {
