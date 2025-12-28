@@ -559,14 +559,14 @@
     "id": "5byY5YWJ56eR5oqA5aSn5a24fOW8mOWFieenkeaKgOWkp+WtuOWMluWmneWTgeaHieeUqOezu+WwiOahiOism+W4q+S7peS4iuW4q+izh3wyMDI1LTEyLTI0",
     "title": "弘光科技大學【化妝品應用系】專案講師以上師資",
     "school": "弘光科技大學",
-    "dept": "人事室",
+    "dept": "化妝品應用系",
     "date": "2025-12-24",
-    "deadline": "2026-02-28",
+    "deadline": "-",
     "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28168",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/00076ebb-edfd-4912-92f5-7ae7efcceaeb?l=ch",
     "tags": [
-      "臺中市沙鹿區"
+      "臺中市"
     ]
   },
   {
@@ -587,14 +587,14 @@
     "id": "5Lit5bGx6Yar5a245aSn5a24fOS4reWxsemGq+WtuOWkp+WtuOmGq+WtuOezu+iAs+m8u+WWieWtuOenkeiqoOW+teWwiOS7u+WKqeeQhuaVmeaOiDHlkI3mlLbku7boh7MxMTUwMjI4fDIwMjUtMTItMjQ=",
     "title": "中山醫學大學醫學系耳鼻喉學科誠徵專任助理教授1名(收件至115/02/28)",
     "school": "中山醫學大學",
-    "dept": "醫學系耳鼻喉學科",
+    "dept": "醫學系",
     "date": "2025-12-24",
-    "deadline": "2026-02-28",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28170",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/9ae3442f-3754-411d-8926-2ca1588fef1a?l=ch",
     "tags": [
-      "臺中市南區"
+      "臺中市"
     ]
   },
   {
@@ -615,14 +615,14 @@
     "id": "5Lit5bGx6Yar5a245aSn5a24fOS4reWxsemGq+WtuOWkp+WtuOmGq+WtuOezu+WppueUouWtuOenkeiqoOW+teWwiOS7u+aVmeaOiDHlkI3mlLbku7boh7MxMTUwMjI4fDIwMjUtMTItMjQ=",
     "title": "中山醫學大學醫學系婦產學科誠徵專任教授1名(收件至115/02/28)",
     "school": "中山醫學大學",
-    "dept": "醫學系婦產學科",
+    "dept": "醫學系",
     "date": "2025-12-24",
-    "deadline": "2026-02-28",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28171",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/7a38d229-2931-4f31-9c6c-f64a87765ef0?l=ch",
     "tags": [
-      "臺中市南區"
+      "臺中市"
     ]
   },
   {
@@ -631,12 +631,12 @@
     "school": "中山醫學大學",
     "dept": "醫學應用化學系",
     "date": "2025-12-24",
-    "deadline": "2026-02-15",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28173",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/cd230b4d-6e44-4bb1-9a58-7770060ae8c4?l=ch",
     "tags": [
-      "臺中市南區"
+      "臺中市"
     ]
   },
   {
@@ -872,17 +872,59 @@
     ]
   },
   {
+    "id": "5ZyL56uL5oiQ5Yqf5aSn5a24fOWci+eri+aIkOWKn+Wkp+WtuOeUn+WRveenkeWtuOezu+W+teeglOeptuWKqeeQhlJlc2VhcmNoQXNzaXN0YW50UG9zaXRpb258MjAyNS0xMi0yNA==",
+    "title": "國立成功大學生命科學系徵研究助理 (Research Assistant Position))",
+    "school": "國立成功大學",
+    "dept": "生命科",
+    "date": "2025-12-24",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/1e7c265c-9751-44c9-9659-db30797a84ea?l=ch",
+    "tags": [
+      "臺南市"
+    ]
+  },
+  {
+    "id": "5Lit5ZyL6Yar6Jel5aSn5a24fOS4reWci+mGq+iXpeWkp+WtuOmZhOioremGq+mZoui6q+W/g+S7i+mdoueglOeptuS4reW/g+iqoOW+teWwiOS7u+iHqOW6iueglOeptuWKqeeQhuWkmuS4reW/g+W+teaJjeWPsOS4reWPsOWMl+mrmOmbhOaWsOerueWPsOWNl3wyMDI1LTEyLTI0",
+    "title": "中國醫藥大學附設醫院 - 身心介面研究中心誠徵專任臨床研究助理!多中心徵才 (台中/台北/高雄/新竹/台南)!",
+    "school": "中國醫藥大學",
+    "dept": "附設醫院",
+    "date": "2025-12-24",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/1a424c57-a7d2-4348-b74c-3c42e078060e?l=ch",
+    "tags": [
+      "臺中市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie65YyX5aSn5a24fOWci+eri+iHuuWMl+Wkp+WtuOizh+ioiuW3peeoi+WtuOezu+iqoOW+teWwiOS7u+aVmeW4qzHlkI3lj4rlhbzku7vmlZnluKsx5ZCN5YWs5ZGKMTE15bm0OOaciDHml6XotbfogZh8MjAyNS0xMi0yNA==",
+    "title": "國立臺北大學資訊工程學系誠徵專任教師1名及兼任教師1名公告(115年8月1日起聘)",
+    "school": "國立臺北大學",
+    "dept": "資訊工程學系",
+    "date": "2025-12-24",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/68036de9-37be-487d-a572-35d7cd09de8f?l=ch",
+    "tags": [
+      "新北市"
+    ]
+  },
+  {
     "id": "5ZyL56uL5bGP5p2x56eR5oqA5aSn5a24fOWci+eri+Wxj+adseenkeaKgOWkp+WtuDExNeWtuOW5tOW6puesrDHlrbjmnJ/lvrXogZjlsIjku7vmlZnluKvlhazlkYrovrLkvIHns7t8MjAyNS0xMi0yMw==",
     "title": "國立屏東科技大學115學年度第1學期徵聘「專任教師」公告(農企系)",
     "school": "國立屏東科技大學",
-    "dept": "人事室",
+    "dept": "115學年度第1學期徵聘「專任教師」公告 農企系",
     "date": "2025-12-23",
-    "deadline": "2026-02-10",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28157",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/e7ecf692-7414-451c-9566-7fac212afc26?l=ch",
     "tags": [
-      "屏東縣內埔鄉"
+      "屏東縣"
     ]
   },
   {
@@ -1017,12 +1059,12 @@
     "school": "國立暨南國際大學",
     "dept": "護理學系",
     "date": "2025-12-23",
-    "deadline": "2026-01-02",
+    "deadline": "-",
     "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28161",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/45b01c6c-a853-44e7-b7ad-e3281120e5af?l=ch",
     "tags": [
-      "南投縣埔里鎮"
+      "南投縣"
     ]
   },
   {
