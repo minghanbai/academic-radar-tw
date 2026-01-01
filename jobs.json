@@ -411,12 +411,12 @@
     "school": "靜宜大學",
     "dept": "英國語文學系",
     "date": "2025-12-30",
-    "deadline": "2026-02-28",
+    "deadline": "-",
     "type": "assistant",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28234",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/5bb782db-da7a-4844-a3fa-7adedc1ccece?l=ch",
     "tags": [
-      "臺中市沙鹿區"
+      "臺中市"
     ]
   },
   {
