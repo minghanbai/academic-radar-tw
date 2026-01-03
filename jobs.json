@@ -124,6 +124,20 @@
     ]
   },
   {
+    "id": "5Lit5Y6f5aSn5a24fOS4reWOn+Wkp+WtuOWMluWtuOezu+W+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijLlkI18MjAyNi0wMS0wMg==",
+    "title": "中原大學化學系徵聘專任助理教授(含)以上 2名",
+    "school": "中原大學",
+    "dept": "人事室",
+    "date": "2026-01-02",
+    "deadline": "2026-03-16",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28279",
+    "tags": [
+      "桃園市中壢區"
+    ]
+  },
+  {
     "id": "5ZyL56uL6auY6ZuE5aSn5a24fOWci+eri+mrmOmbhOWkp+WtuOWMluWtuOW3peeoi+WPiuadkOaWmeW3peeoi+WtuOezu+iqoOW+teWwiOS7u+aVmeW4q+S4gOWQjeW7tumVt+WFrOWRinwyMDI2LTAxLTAx",
     "title": "國立高雄大學化學工程及材料工程學系誠徵專任教師一名(延長公告)",
     "school": "國立高雄大學",
@@ -461,14 +475,14 @@
     "id": "6YCi55Sy5aSn5a24fOmAoueUsuWkp+WtuOizh+ioiumbu+apn+WtuOmZoumbu+WtkOW3peeoi+WtuOezu+WwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaIlue0hOiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNS0xMi0zMQ==",
     "title": "逢甲大學/資訊電機學院/電子工程學系/專任助理教授(含以上)或約聘專任助理教授(含以上)1名",
     "school": "逢甲大學",
-    "dept": "資訊電機學院",
+    "dept": "資訊電機學院/電子工程學系",
     "date": "2025-12-31",
-    "deadline": "-",
+    "deadline": "2026-03-01",
     "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/fcd3ea19-2b3c-4486-9ad0-7c73597898e2?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28262",
     "tags": [
-      "臺中市"
+      "臺中市西屯區"
     ]
   },
   {
@@ -505,12 +519,12 @@
     "school": "國立嘉義大學",
     "dept": "幼兒教育學系",
     "date": "2025-12-31",
-    "deadline": "2026-02-12",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28267",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/c72f8577-48d3-45a3-829f-9ea3503bdec3?l=ch",
     "tags": [
-      "嘉義縣民雄鄉"
+      "嘉義市"
     ]
   },
   {
@@ -880,6 +894,62 @@
     "tags": []
   },
   {
+    "id": "6auY6ZuE6Yar5a245aSn5a24fOmrmOmbhOmGq+WtuOWkp+WtuOitt+eQhuWtuOmZouitt+eQhuWtuOezu+iqoOW+tee3qOWItuWFp+WKqeeQhuaVmeaOiOWQq+S7peS4ijTlkI3mlLbku7bmiKrmraLml6UxMTXlubQx5pyIMjLml6V8MjAyNS0xMi0zMQ==",
+    "title": "高雄醫學大學護理學院護理學系誠徵編制內助理教授(含)以上4名 (收件截止日：115年1月22日)",
+    "school": "高雄醫學大學",
+    "dept": "護理學院",
+    "date": "2025-12-31",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://reurl.cc/zKXm2p",
+    "tags": [
+      "高雄市"
+    ]
+  },
+  {
+    "id": "6auY6ZuE6Yar5a245aSn5a24fOmrmOmbhOmGq+WtuOWkp+WtuOiXpeWtuOmZouiXpeWtuOezu+iqoOW+tee3qOWItuWFp+WKqeeQhuaVmeaOiOWQq+S7peS4ijTlkI3mlLbku7bmiKrmraLml6UxMTXlubQz5pyIM+aXpeiXpeWtuOmgmOWfn3wyMDI1LTEyLTMx",
+    "title": "高雄醫學大學藥學院藥學系誠徵編制內助理教授(含)以上4名 (收件截止日：115年3月3日)(藥學領域)",
+    "school": "高雄醫學大學",
+    "dept": "藥學院",
+    "date": "2025-12-31",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://reurl.cc/2lvMLv",
+    "tags": [
+      "高雄市"
+    ]
+  },
+  {
+    "id": "6auY6ZuE6Yar5a245aSn5a24fOmrmOmbhOmGq+WtuOWkp+WtuOmAmuitmOaVmeiCsuS4reW/g+iqnuiogOiIh+aWh+WMluS4reW/g+iqoOW+teWKqeeQhuaVmeaOiOWQq+S7peS4iue0muS5i+WwiOahiOaVmeWtuOWlkee0hOS6uuWToTHlkI1FTUlNZW50b3LmlLbku7bmiKrmraLml6UxMTXlubQx5pyIMjLml6V8MjAyNS0xMi0zMQ==",
+    "title": "高雄醫學大學通識教育中心語言與文化中心誠徵助理教授(含)以上級之專案教學契約人員1名(EMI Mentor)(收件截止日:115年1月22日)",
+    "school": "高雄醫學大學",
+    "dept": "通識教育中心",
+    "date": "2025-12-31",
+    "deadline": "-",
+    "type": "project",
+    "source": "NSTC",
+    "link": "https://reurl.cc/2l3xrv",
+    "tags": [
+      "高雄市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie65YyX6Jed6KGT5aSn5a24fOWci+eri+iHuuWMl+iXneihk+Wkp+WtuOmrmOaVmea3seiAleioiOeVq+i+puWFrOWupOW+teWwiOS7u+WKqeeQhuWQjXwyMDI1LTEyLTMx",
+    "title": "國立臺北藝術大學高教深耕計畫辦公室徵專任助理１名",
+    "school": "國立臺北藝術大學",
+    "dept": "高教深耕計畫辦公室",
+    "date": "2025-12-31",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/c3105c52-4491-4b87-a43b-9d086acbb3ff?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
     "id": "5ZyL56uL5ZiJ576p5aSn5a24fOWci+eri+WYiee+qeWkp+WtuOeNuOmGq+WtuOezuzExNeWtuOW5tOW6puesrDHlrbjmnJ/lvrXogZjlsIjku7vliqnnkIbmlZnmjojlkKvku6XkuIrmlZnluKsx5ZCN5Z+656SOfDIwMjUtMTItMzA=",
     "title": "國立嘉義大學獸醫學系115學年度第1學期徵聘專任助理教授(含)以上教師1名(基礎)",
     "school": "國立嘉義大學",
@@ -969,12 +1039,12 @@
     "school": "靜宜大學",
     "dept": "英國語文學系",
     "date": "2025-12-30",
-    "deadline": "-",
+    "deadline": "2026-02-28",
     "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/5bb782db-da7a-4844-a3fa-7adedc1ccece?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28234",
     "tags": [
-      "臺中市"
+      "臺中市沙鹿區"
     ]
   },
   {
@@ -1011,12 +1081,12 @@
     "school": "靜宜大學",
     "dept": "寰宇外語教育學士學位學程",
     "date": "2025-12-30",
-    "deadline": "-",
+    "deadline": "2026-03-01",
     "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/da53987b-355b-4bcc-94d1-19172d804ebe?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28236",
     "tags": [
-      "臺中市"
+      "臺中市沙鹿區"
     ]
   },
   {
@@ -1311,12 +1381,12 @@
     "school": "中國醫藥大學",
     "dept": "公共衛生學系",
     "date": "2025-12-29",
-    "deadline": "2026-01-31",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28202",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/61bb46be-2039-4930-8f69-a768d2b60cbe?l=ch",
     "tags": [
-      "臺中市北屯區"
+      "臺中市"
     ]
   },
   {
@@ -1437,12 +1507,12 @@
     "school": "國立嘉義大學",
     "dept": "機械與能源工程學系",
     "date": "2025-12-29",
-    "deadline": "2026-02-26",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28219",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/de73c0f4-d06b-4a51-9ebb-0e60ee391098?l=ch",
     "tags": [
-      "嘉義市東區"
+      "嘉義市"
     ]
   },
   {
