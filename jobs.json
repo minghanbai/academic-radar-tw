@@ -285,12 +285,12 @@
     "school": "國立高雄師範大學",
     "dept": "地理學系",
     "date": "2026-01-08",
-    "deadline": "-",
+    "deadline": "2026-02-27",
     "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/4ec06ec5-837d-4ddc-9631-ea9e37098977?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28332",
     "tags": [
-      "高雄市"
+      "高雄市苓雅區"
     ]
   },
   {
@@ -311,14 +311,14 @@
     "id": "6Ie65YyX6Yar5a245aSn5a24fOiHuuWMl+mGq+WtuOWkp+WtuOitt+eQhuWtuOmZoumrmOm9oeWBpeW6t+aaqOmVt+acn+eFp+itt+WtuOezu+iqoOW+teWKqeeQhuaVmeaOiOWQq+S7peS4ijLlkI3lhazlkYroh7MxMTUwMjI45oiq5q2ifDIwMjYtMDEtMDg=",
     "title": "臺北醫學大學護理學院高齡健康暨長期照護學系誠徵助理教授(含)以上2名(公告至115.02.28截止)",
     "school": "臺北醫學大學",
-    "dept": "人力資源處",
+    "dept": "護理學院",
     "date": "2026-01-08",
-    "deadline": "2026-02-28",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28339",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/9508b7c6-1d6e-43f9-84b0-f70de283bccd?l=ch",
     "tags": [
-      "臺北市信義區"
+      "臺北市"
     ]
   },
   {
@@ -692,6 +692,30 @@
     "tags": [
       "桃園市"
     ]
+  },
+  {
+    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjnp5jmm7jomZXoqqDlvrXli57lt6XlgaXlurfmnI3li5norbfnkIbluKvmiKrmraLoh7MxMTXlubQz5pyIMzHml6XmraJ8MjAyNi0wMS0wOA==",
+    "title": "【徵才】明新學校財團法人明新科技大學【秘書處】誠徵【勞工健康服務護理師】截止至115年3月31日止",
+    "school": "徵才 明新學校財團法人明新科技大學",
+    "dept": "秘書處",
+    "date": "2026-01-08",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/f7f13970-f7db-405d-83a3-c1dce55ce1b6?l=ch",
+    "tags": []
+  },
+  {
+    "id": "5ZyL56eR5pyDfOiqoOW+teaWsOWFiemGq+eZguiyoeWcmOazleS6uuaWsOWFieWQs+eBq+eNhee0gOW/temGq+mZoueXheeQhuenkeWRqOW+t+ebiOaVmeaOiOWvpumpl+WupOW+teWtuOWjq+eiqeWjq+e0muWKqeeQhnwyMDI2LTAxLTA4",
+    "title": "<誠徵> 新光醫療財團法人新光吳火獅紀念醫院病理科-周德盈教授實驗室徵學士/碩士級助理",
+    "school": "國科會",
+    "dept": "詳見標題",
+    "date": "2026-01-08",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/499d392e-5cb4-4640-9c63-07b80c2a4d64?l=ch",
+    "tags": []
   },
   {
     "id": "5ZyL56uL6auY6ZuE5aSn5a24fOWci+eri+mrmOmbhOWkp+WtuOmbu+apn+W3peeoi+WtuOezu+mAmuioiuW3peeoi+mgmOWfn+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOS7peS4ijLlkI3lu7bplbflhazlkYp8MjAyNi0wMS0wNw==",
@@ -8216,31 +8240,5 @@
     "tags": [
       "屏東縣"
     ]
-  },
-  {
-    "id": "5ZyL56uL5ZiJ576p5aSn5a24fOWci+eri+WYiee+qeWkp+WtuOaHieeUqOatt+WPsuWtuOezuzExNeWtuOW5tOW6puesrDHlrbjmnJ/lvrXogZjlsIjmoYjliqnnkIbmlZnmjojmlZnluKsx5ZCNfDIwMjUtMTItMTU=",
-    "title": "國立嘉義大學應用歷史學系115學年度第1學期徵聘專案助理教授教師1名",
-    "school": "國立嘉義大學",
-    "dept": "應用歷史學系",
-    "date": "2025-12-15",
-    "deadline": "-",
-    "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/7becf189-889a-4227-b1c8-bf29f5f4a777?l=ch",
-    "tags": [
-      "嘉義市"
-    ]
-  },
-  {
-    "id": "5L+u5bmz56eR5oqA5aSn5a24fOS/ruW5s+enkeaKgOWkp+WtuOaZuuaFp+i7iui8m+ezu+iqoOW+teaVmeW4q+WFrOWRinwyMDI1LTEyLTE1",
-    "title": "修平科技大學智慧車輛系誠徵教師公告",
-    "school": "修平科技大學",
-    "dept": "智慧車輛系",
-    "date": "2025-12-15",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/45c1e3ef-8f76-4476-907b-d36204d22553?l=ch",
-    "tags": []
   }
 ]
