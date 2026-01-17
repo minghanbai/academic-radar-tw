@@ -252,6 +252,20 @@
     ]
   },
   {
+    "id": "5ZyL56uL5bGP5p2x5aSn5a24fOWci+eri+Wxj+adseWkp+WtuOiLseiqnuWtuOezu+W+teiBmOWwiOS7u+aVmeW4q+WFrOWRijExNTAxMTZ8MjAyNi0wMS0xNg==",
+    "title": "國立屏東大學英語學系徵聘專任教師公告(1150116)",
+    "school": "國立屏東大學",
+    "dept": "人事室",
+    "date": "2026-01-16",
+    "deadline": "2026-03-16",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28481",
+    "tags": [
+      "屏東縣屏東市"
+    ]
+  },
+  {
     "id": "5ZyL56uL5p2x6I+v5aSn5a24fOW+teiBmOaVmeW4q+Wci+eri+adseiPr+Wkp+WtuOW4q+izh+WfueiCsuS4reW/g+W+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wMS0xNQ==",
     "title": "【徵聘教師】國立東華大學師資培育中心徵聘專任助理教授(含)以上1名",
     "school": "國立東華大學",
@@ -601,12 +615,12 @@
     "school": "中國醫藥大學",
     "dept": "針灸研究所",
     "date": "2026-01-14",
-    "deadline": "-",
+    "deadline": "2026-02-28",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/319aef6b-30e8-4bee-9d80-3342086526af?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28422",
     "tags": [
-      "臺中市"
+      "臺中市北區"
     ]
   },
   {
@@ -8226,17 +8240,5 @@
     "tags": [
       "基隆市"
     ]
-  },
-  {
-    "id": "5ZyL56eR5pyDfOmrmOmbhOamruawkee4vemGq+mZouWppumGq+mDqOWtuOWjq+e0mueglOeptuWKqeeQhueiqeWjq+e0mueglOeptuWKqeeQhuWNmuWjq+W+jOeglOeptuWToXwyMDI1LTEyLTIz",
-    "title": "高雄榮民總醫院-婦醫部-學士級研究助理、碩士級研究助理、博士後研究員",
-    "school": "國科會",
-    "dept": "詳見標題",
-    "date": "2025-12-23",
-    "deadline": "-",
-    "type": "postdoc",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/866a6587-8aa5-4285-9ff4-61ce3d9720b0?l=ch",
-    "tags": []
   }
 ]
