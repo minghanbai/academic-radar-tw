@@ -140,6 +140,20 @@
     ]
   },
   {
+    "id": "5Lit5ZyL6Yar6Jel5aSn5a24fOS4reWci+mGq+iXpeWkp+WtuOmGq+eZguizh+ioiuWtuOezu+W+teaxguWwiOS7u+aVmeW4qzHlkI18MjAyNi0wMi0wOQ==",
+    "title": "中國醫藥大學醫療資訊學系徵求專任教師1名",
+    "school": "中國醫藥大學",
+    "dept": "醫療資訊學系",
+    "date": "2026-02-09",
+    "deadline": "2026-02-16",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28647",
+    "tags": [
+      "臺中市北區"
+    ]
+  },
+  {
     "id": "5ZyL56uL5pS/5rK75aSn5a24fOWci+eri+aUv+ayu+Wkp+WtuOWCs+aSreWtuOmZojExNeWtuOW5tOW6puW+teiBmOaVmeW4q+WVn+S6i3wyMDI2LTAyLTA4",
     "title": "國立政治大學傳播學院115學年度徵聘教師啟事",
     "school": "國立政治大學",
@@ -477,12 +491,12 @@
     "school": "靜宜大學",
     "dept": "通識教育中心",
     "date": "2026-02-05",
-    "deadline": "-",
+    "deadline": "2026-03-05",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/d6c5c300-afd9-499d-803d-1960d5c3f774?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28631",
     "tags": [
-      "臺中市"
+      "臺中市沙鹿區"
     ]
   },
   {
@@ -503,14 +517,14 @@
     "id": "5ZyL56uL5bGP5p2x5aSn5a24fOWci+eri+Wxj+adseWkp+WtuOWft+ihjOWci+enkeacg+S6uuaWh+WJteaWsOiIh+ekvuacg+Wvpui4kOioiOeVq+esrOWFreacn+W+teiBmOS6uuaWh+ekvuacg+WtuOmZouWwiOahiOaVmeW4q+WFrOWRijExNTAyMDV8MjAyNi0wMi0wNQ==",
     "title": "國立屏東大學執行國科會《人文創新與社會實踐》計畫第六期徵聘人文社會學院專案教師公告(1150205)",
     "school": "國立屏東大學",
-    "dept": "國立屏東大學人文社會學院",
+    "dept": "執行國科",
     "date": "2026-02-05",
-    "deadline": "2026-02-25",
+    "deadline": "-",
     "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28630",
+    "source": "NSTC",
+    "link": "https://pers.nptu.edu.tw/p/406-1017-191954,r1605.php?Lang=zh-tw",
     "tags": [
-      "屏東縣屏東市"
+      "屏東縣"
     ]
   },
   {
@@ -831,12 +845,12 @@
     "school": "國立中央大學",
     "dept": "法律與政府研究所",
     "date": "2026-02-04",
-    "deadline": "-",
+    "deadline": "2026-03-02",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/51bd9ba4-b842-4fb3-ac64-75c7692f0881?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28601",
     "tags": [
-      "桃園市"
+      "桃園市中壢區"
     ]
   },
   {
@@ -8221,20 +8235,6 @@
     "type": "project",
     "source": "NSTC",
     "link": "https://www.nstc.gov.tw/folksonomy/detail/96198d1c-0c6a-4d1c-9e14-93d0ce27a54a?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5b615omNIOaUv+Wkp3zlvrXmiY3mlL/lpKfkurrlt6Xmmbrmhafot6jln5/noJTnqbbkuK3lv4NBSeS4reW/g+ioiOeVq+WwiOS7u+S6uuWKm3wyMDI2LTAxLTEy",
-    "title": "【徵才】政大人工智慧跨域研究中心(AI中心)計畫專任人力",
-    "school": "徵才 政大",
-    "dept": "人工智慧跨域研究中心",
-    "date": "2026-01-12",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://iaic.nccu.edu.tw/news/230",
     "tags": [
       "臺北市"
     ]
