@@ -1,5 +1,19 @@
 [
   {
+    "id": "5ZyL56uL5Lit5aSu5aSn5a24fOWci+eri+S4reWkruWkp+WtuOapn+aisOezu+WtuOWjq+aIlueiqeWjq+e0muWwiOS7u+WKqeeQhnwyMDI2LTAyLTE3",
+    "title": "國立中央大學機械系-學士或碩士級專任助理",
+    "school": "國立中央大學",
+    "dept": "機械系",
+    "date": "2026-02-17",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/42a13e9a-2920-4436-86a7-67c07fd3d284?l=ch",
+    "tags": [
+      "桃園市"
+    ]
+  },
+  {
     "id": "5ZyL56uL6auY6ZuE56eR5oqA5aSn5a24fOWci+eri+mrmOmbhOenkeaKgOWkp+WtuOawtOeUoumjn+WTgeenkeWtuOezu+W+teiBmDHlkI3liqnnkIbmlZnmjojntJrlkKvku6XkuIrnoJTnqbblnovnt6jliLblpJblsIjku7vmlZnlrbjkurrlk6HlhazlkYp8MjAyNi0wMi0xMw==",
     "title": "國立高雄科技大學水產食品科學系徵聘1名助理教授級(含)以上研究型編制外專任教學人員公告",
     "school": "國立高雄科技大學",
@@ -239,14 +253,14 @@
     "id": "5Lit5Y6f5aSn5a24fOS4reWOn+Wkp+WtuOaHieeUqOaVuOWtuOezu+W+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijLlkI18MjAyNi0wMi0xMg==",
     "title": "中原大學應用數學系徵聘專任助理教授(含)以上2名",
     "school": "中原大學",
-    "dept": "人事室",
+    "dept": "應用數學系",
     "date": "2026-02-12",
-    "deadline": "2026-05-18",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28686",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/907ba192-2124-4a8d-82c0-b66b41341f60?l=ch",
     "tags": [
-      "桃園市中壢區"
+      "桃園市"
     ]
   },
   {
@@ -283,12 +297,12 @@
     "school": "國立高雄餐旅大學",
     "dept": "餐飲管理系",
     "date": "2026-02-12",
-    "deadline": "-",
+    "deadline": "2026-03-08",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://psla.nkuht.edu.tw/p/404-1015-41342.php?Lang=zh-tw",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28688",
     "tags": [
-      "高雄市"
+      "高雄市小港區"
     ]
   },
   {
@@ -693,14 +707,14 @@
     "id": "5ZyL56uL5bGP5p2x56eR5oqA5aSn5a24fOWci+eri+Wxj+adseenkeaKgOWkp+WtuDExNeWtuOW5tOW6puesrDHlrbjmnJ/lvrXogZjlsIjku7vmiJblsIjmoYjmlZnluKvlu7bplbflhazlkYrnlJ/mqZ/ns7t8MjAyNi0wMi0xMQ==",
     "title": "國立屏東科技大學115學年度第1學期徵聘「專任或專案教師」延長公告(生機系)",
     "school": "國立屏東科技大學",
-    "dept": "人事室",
+    "dept": "115學年度第1學期徵聘「專任或專案教師」延長公告 生機系",
     "date": "2026-02-11",
-    "deadline": "2026-02-26",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28670",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/c4c276c5-eaec-47c1-b027-8a2d283add59?l=ch",
     "tags": [
-      "屏東縣內埔鄉"
+      "屏東縣"
     ]
   },
   {
@@ -8237,20 +8251,6 @@
     "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28481",
     "tags": [
       "屏東縣屏東市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5pS/5rK75aSn5a24fOWci+eri+aUv+ayu+Wkp+WtuOawuOe6jOeZvOWxlei+puWFrOWupOiqoOW+teWNmuWjq+e0mueglOeptuWToTHlkI18MjAyNi0wMS0xNg==",
-    "title": "國立政治大學永續發展辦公室誠徵博士級研究員 1 名",
-    "school": "國立政治大學",
-    "dept": "永續發展辦公室",
-    "date": "2026-01-16",
-    "deadline": "-",
-    "type": "other",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/16560087-bcf7-457b-b1cd-63b85d542409?l=ch",
-    "tags": [
-      "臺北市"
     ]
   }
 ]
