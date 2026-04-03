@@ -956,6 +956,34 @@
     ]
   },
   {
+    "id": "6YqY5YKz5aSn5a24fOmKmOWCs+Wkp+WtuOiyoeWLmemHkeiejeWtuOezu+iqoOW+teWFvOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaVmeW4qzHlkI18MjAyNi0wNC0wMQ==",
+    "title": "銘傳大學財務金融學系誠徵兼任助理教授(含)以上教師1名",
+    "school": "銘傳大學",
+    "dept": "財務金融學系",
+    "date": "2026-04-01",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/7d0713ec-5a11-432a-ba2b-962b9fa59005?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
+    "id": "6YqY5YKz5aSn5a24fOmKmOWCs+Wkp+WtuOWNiuWwjumrlOaHieeUqOWtuOWjq+WtuOS9jeWtuOeoi+iqoOW+teWwiOS7u+ahiOWKqeeQhuaVmeaOiOWQq+S7peS4iuaVmeW4q+WQjXwyMDI2LTA0LTAx",
+    "title": "銘傳大學半導體應用學士學位學程誠徵專任(案)助理教授(含)以上教師１名",
+    "school": "銘傳大學",
+    "dept": "半導體應用學士學位學程",
+    "date": "2026-04-01",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/bc319d05-c6f0-4fc5-bd96-615f30e951c8?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
     "id": "5ZyL56uL5ZiJ576p5aSn5a24fOWci+eri+WYiee+qeWkp+WtuOmbu+apn+W3peeoi+WtuOezuzExNeWtuOW5tOW6puesrDHlrbjmnJ/lvrXogZjlsIjku7vliqnnkIbmlZnmjojlkKvku6XkuIrmlZnluKsx5ZCNfDIwMjYtMDMtMzE=",
     "title": "國立嘉義大學電機工程學系115學年度第1學期徵聘專任助理教授(含)以上教師1名",
     "school": "國立嘉義大學",
@@ -999,16 +1027,16 @@
   },
   {
     "id": "5ZyL56uL5Lit5q2j5aSn5a24fOWci+eri+S4reato+Wkp+WtuOW3peWtuOmZouiqoOW+temAmuioiuW3peeoi+WtuOezu+ezu+S4u+S7u+WAmemBuOS6uuWVn+S6i+esrOS4gOasoeW7tumVt+WFrOWRinwyMDI2LTAzLTMx",
-    "title": "國立中正大學工學院 誠徵通訊工程學系系主任候選人啟事(第一次延長公告)",
+    "title": "國立中正大學工學院誠徵通訊工程學系系主任候選人啟事(第一次延長公告)",
     "school": "國立中正大學",
     "dept": "工學院",
     "date": "2026-03-31",
-    "deadline": "2026-04-09",
+    "deadline": "-",
     "type": "other",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29116",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/5f9f6d6c-66fa-4f4e-b943-fd895d568998?l=ch",
     "tags": [
-      "嘉義縣民雄鄉"
+      "嘉義縣"
     ]
   },
   {
@@ -1197,14 +1225,14 @@
     "id": "5byY5YWJ56eR5oqA5aSn5a24fOW8mOWFieenkeaKgOWkp+WtuOmjn+WTgeenkeaKgOezu+WwiOS7u+WKqeeQhuaVmeaOiHwyMDI2LTAzLTMx",
     "title": "弘光科技大學【食品科技系】專任助理教授",
     "school": "弘光科技大學",
-    "dept": "人事室",
+    "dept": "食品科",
     "date": "2026-03-31",
-    "deadline": "2026-04-30",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29131",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/676887bc-64c0-4ba2-95c9-18cdaa053611?l=ch",
     "tags": [
-      "臺中市沙鹿區"
+      "臺中市"
     ]
   },
   {
@@ -8265,34 +8293,6 @@
     "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28901",
     "tags": [
       "雲林縣斗六市"
-    ]
-  },
-  {
-    "id": "5Lit5Y6f5aSn5a24fOS4reWOn+Wkp+WtuOWci+mam+WVhuWtuOWtuOWjq+WtuOS9jeWtuOeoi+W+teiBmOWwiOahiOWKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wMy0xMQ==",
-    "title": "中原大學國際商學學士學位學程徵聘專案助理教授(含)以上1名",
-    "school": "中原大學",
-    "dept": "國際商學學士學位學程",
-    "date": "2026-03-11",
-    "deadline": "-",
-    "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/104e285b-6f3b-403d-9b52-2a7e8ec0fb94?l=ch",
-    "tags": [
-      "桃園市"
-    ]
-  },
-  {
-    "id": "5paH6Je75aSW6Kqe5aSn5a24fOmAmuitmOaVmeiCsuS4reW/g+WwiOS7u+aVuOWtuOWKqeeQhuaVmeaOiOe0muS7peS4ijHlkI18MjAyNi0wMy0xMQ==",
-    "title": "通識教育中心專任數學助理教授級以上1名",
-    "school": "文藻外語大學",
-    "dept": "通識教育中心",
-    "date": "2026-03-11",
-    "deadline": "2026-03-19",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=28895",
-    "tags": [
-      "高雄市三民區"
     ]
   }
 ]
