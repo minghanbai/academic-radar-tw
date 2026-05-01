@@ -1,5 +1,19 @@
 [
   {
+    "id": "5Lit5ZyL5paH5YyW5aSn5a24fOS4reWci+aWh+WMluWkp+WtuDExNeWtuOW5tOW6puaWsOiBmOaVmeW4q+WFrOmWi+W+teaxguS6uuaJjeeQhuW3peWtuOmZoue0oee5lOenkeaKgOWJteaWsOiIh+aHieeUqOW3peeoi+WtuOezu3wyMDI2LTA1LTAx",
+    "title": "中國文化大學115學年度新聘教師公開徵求人才(理工學院紡織科技創新與應用工程學系)",
+    "school": "中國文化大學",
+    "dept": "人事室",
+    "date": "2026-05-01",
+    "deadline": "2026-05-31",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29506",
+    "tags": [
+      "臺北市士林區"
+    ]
+  },
+  {
     "id": "5Lqe5rSy5aSn5a24fOS6nua0suWkp+WtuOWBpeW6t+eUoualreeuoeeQhuWtuOezu+iqoOW+teWwiOS7u+WwiOahiOWKqeeQhuaVmeaOiOWQq+S7peS4iuaVmeW4q3wyMDI2LTA0LTMw",
     "title": "亞洲大學健康產業管理學系誠徵專任(專案)助理教授(含)以上教師",
     "school": "亞洲大學",
@@ -449,14 +463,14 @@
     "id": "6Ie65YyX6Yar5a245aSn5a24fOiHuuWMl+mGq+WtuOWkp+WtuOi3qOmgmOWfn+WtuOmZouaZuuaFp+mGq+eZgui3qOmgmOWfn+WtuOWjq+WtuOS9jeWtuOeoi+exjOWCmeiZleiqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI3lhazlkYroh7MxMTUwNTI55oiq5q2ifDIwMjYtMDQtMjg=",
     "title": "臺北醫學大學跨領域學院智慧醫療跨領域學士學位學程籌備處誠徵專任助理教授(含)以上1名(公告至115.05.29截止)",
     "school": "臺北醫學大學",
-    "dept": "人力資源處",
+    "dept": "跨領域學院",
     "date": "2026-04-28",
-    "deadline": "2026-05-29",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29473",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/4b7e3da8-bb9b-415b-b95a-fabd33bbc983?l=ch",
     "tags": [
-      "臺北市信義區"
+      "臺北市"
     ]
   },
   {
@@ -8263,20 +8277,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/e3debf4a-ed5b-47c4-9ce5-2d2117fbb616?l=ch",
     "tags": [
       "高雄市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6IGv5ZCI5aSn5a24fOWci+eri+iBr+WQiOWkp+WtuOWMluWtuOW3peeoi+WtuOezu+iqoOW+teWFvOS7u+aVmeW4q+WFrOWRinwyMDI2LTA0LTA3",
-    "title": "國立聯合大學化學工程學系 誠徵兼任教師公告",
-    "school": "國立聯合大學",
-    "dept": "化學工程學系",
-    "date": "2026-04-07",
-    "deadline": "-",
-    "type": "adjunct",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/f336446a-ee73-41b0-bcae-7de0948dc86b?l=ch",
-    "tags": [
-      "苗栗縣"
     ]
   }
 ]
