@@ -241,14 +241,14 @@
     "id": "5Lit5Y6f5aSn5a24fOS4reWOn+Wkp+WtuOmbu+WtkOW3peeoi+WtuOezu+W+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wNS0wNw==",
     "title": "中原大學電子工程學系徵聘專任助理教授(含)以上1名",
     "school": "中原大學",
-    "dept": "人事室",
+    "dept": "電子工程學系",
     "date": "2026-05-07",
-    "deadline": "2026-06-05",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29559",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/d75ba856-9dc4-4838-b909-8937e0778c8a?l=ch",
     "tags": [
-      "桃園市中壢區"
+      "桃園市"
     ]
   },
   {
@@ -799,6 +799,20 @@
     "link": "https://web3.dgpa.gov.tw/want03front/AP/WANTF00001_1.aspx?work_id=%7e%ef%bc%8a%ef%bc%8a%ef%bc%a0%ef%bc%86%ef%bc%a0%ef%bc%86%ef%bc%8a%ef%bc%86%ef%bc%857",
     "tags": [
       "新北市"
+    ]
+  },
+  {
+    "id": "6Z2c5a6c5aSn5a24fOmdnOWunOWkp+WtuOeUn+aFi+S6uuaWh+WtuOezu+WwiOS7u+aVmeW4q+aIluWwiOahiOe0hOiBmOaVmeW4qzHlkI3lu7bplbfoh7M1MjV8MjAyNi0wNS0wNw==",
+    "title": "靜宜大學生態人文學系專任教師或專案約聘教師1名(延長至5/25)",
+    "school": "靜宜大學",
+    "dept": "生態人文學系",
+    "date": "2026-05-07",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/a5974381-8f8d-4925-b184-dc6c378fa9ef?l=ch",
+    "tags": [
+      "臺中市"
     ]
   },
   {
@@ -8256,17 +8270,5 @@
     "tags": [
       "高雄市"
     ]
-  },
-  {
-    "id": "6JCs6IO95a245qCh6LKh5ZyY5rOV5Lq66JCs6IO956eR5oqA5aSn5a24fOiQrOiDveWtuOagoeiyoeWcmOazleS6uuiQrOiDveenkeaKgOWkp+WtuOWMluWmneWTgeaHieeUqOiIh+euoeeQhuezu+W+teiBmOWwiOahiOaVmeW4q3wyMDI2LTA0LTE0",
-    "title": "萬能學校財團法人萬能科技大學化妝品應用與管理系徵聘專案教師",
-    "school": "萬能學校財團法人萬能科技大學",
-    "dept": "化妝品應用與管理系",
-    "date": "2026-04-14",
-    "deadline": "-",
-    "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/6eba8dde-bcfe-49d5-83be-69539b554198?l=ch",
-    "tags": []
   }
 ]
