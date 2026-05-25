@@ -241,14 +241,14 @@
     "id": "5ZyL56uL5bGP5p2x56eR5oqA5aSn5a24fOWci+eri+Wxj+adseenkeaKgOWkp+WtuDExNeWtuOW5tOW6puesrDLlrbjmnJ/lvrXogZjlsIjku7vmlZnluKvlhazlkYrovrLlnJLns7vmpI3phqvns7vpo5/lk4Hns7vmnKjoqK3ns7vou4rovJvns7vos4fnrqHns7vovrLkvIHns7vkvJHpgYvns7vnjbjphqvns7t8MjAyNi0wNS0yMg==",
     "title": "國立屏東科技大學115學年度第2學期徵聘「專任教師」公告(農園系/植醫系/食品系/木設系/車輛系/資管系/農企系/休運系/獸醫系)",
     "school": "國立屏東科技大學",
-    "dept": "115學年度第2學期徵聘「專任教師」公告 農園系",
+    "dept": "人事室",
     "date": "2026-05-22",
-    "deadline": "-",
+    "deadline": "2026-08-21",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/7b806b9a-a99c-45b5-9ef6-49864bb5bf16?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29697",
     "tags": [
-      "屏東縣"
+      "屏東縣內埔鄉"
     ]
   },
   {
@@ -311,14 +311,14 @@
     "id": "5ZyL56uL5oiQ5Yqf5aSn5a24fOWci+eri+aIkOWKn+Wkp+WtuOacg+ioiOWtuOezu+aaqOiyoeWLmemHkeiejeeglOeptuaJgOiqoOW+teacg+ioiOeoheWLmeiyoemHkeWwiOmVt+aVmeW4q+WFrOWRinwyMDI2LTA1LTIy",
     "title": "國立成功大學會計學系暨財務金融研究所 誠徵會計(稅務)、財金專長教師公告",
     "school": "國立成功大學",
-    "dept": "會計系",
+    "dept": "會計學系",
     "date": "2026-05-22",
-    "deadline": "2026-09-11",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29703",
+    "source": "NSTC",
+    "link": "https://www.acc.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=4021&index=1",
     "tags": [
-      "臺南市東區"
+      "臺南市"
     ]
   },
   {
@@ -341,12 +341,12 @@
     "school": "亞洲大學",
     "dept": "社會工作學系",
     "date": "2026-05-22",
-    "deadline": "-",
+    "deadline": "2026-06-30",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/c713dd94-7579-4757-93c0-ac484c49977b?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29699",
     "tags": [
-      "臺中市"
+      "臺中市霧峰區"
     ]
   },
   {
@@ -691,6 +691,34 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/f8ecf896-7932-48a6-8ba9-6968f93a4889?l=ch",
     "tags": [
       "高雄市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Zuy5p6X56eR5oqA5aSn5a24fOWci+eri+mbsuael+enkeaKgOWkp+WtuOapn+aisOW3peeoi+ezu+WwiOS7u+W4q+izh+W+teiBmOWFrOWRiuaUtuS7tuaIquatouaXpTExNTA2MDV8MjAyNi0wNS0yMg==",
+    "title": "國立雲林科技大學機械工程系專任師資徵聘公告(收件截止日1150605)",
+    "school": "國立雲林科技大學",
+    "dept": "機械工程系",
+    "date": "2026-05-22",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/56e34b6a-e17f-43eb-97cf-215c64901954?l=ch",
+    "tags": [
+      "雲林縣"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Zm95piO5Lqk6YCa5aSn5a24fOWci+eri+mZveaYjuS6pOmAmuWkp+WtuOagoeWLmeWkp+aVuOaTmueglOeptuS4reW/g+izh+aWmeayu+eQhue1hOW+teioiOeVq+WwiOS7u+S6uuWToTHlkI18MjAyNi0wNS0yMg==",
+    "title": "國立陽明交通大學校務大數據研究中心資料治理組徵計畫專任人員1名",
+    "school": "國立陽明交通大學",
+    "dept": "校務大數據研究中心",
+    "date": "2026-05-22",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/f50b95f6-8a93-44db-a3d0-2f02bb52077a?l=ch",
+    "tags": [
+      "臺北市"
     ]
   },
   {
@@ -8241,30 +8269,6 @@
     "type": "other",
     "source": "NSTC",
     "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=30747",
-    "tags": []
-  },
-  {
-    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjlubzlhZLkv53ogrLns7voqqDlvrXmlrDljJfluILmmIznpo/pnZ7nh5/liKnlubzlhZLlnJLlubzlhZLlnJLmlZnluKvmlZnkv53lk6HmiKroh7MxMTXlubQ35pyIMzHml6XmraJ8MjAyNi0wNC0yNw==",
-    "title": "【徵才】明新學校財團法人明新科技大學【幼兒保育系】 誠徵【新北市昌福非營利幼兒園】幼兒園教師/教保員截至115年7月31日止",
-    "school": "徵才 明新學校財團法人明新科技大學",
-    "dept": "幼兒保育系",
-    "date": "2026-04-27",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=30750",
-    "tags": []
-  },
-  {
-    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjlubzlhZLkv53ogrLns7voqqDlvrXmlrDljJfluILmmIznpo/pnZ7nh5/liKnlubzlhZLlnJLlu5rlt6XmiKroh7MxMTXlubQ35pyIMzHml6XmraJ8MjAyNi0wNC0yNw==",
-    "title": "【徵才】明新學校財團法人明新科技大學【幼兒保育系】 誠徵【新北市昌福非營利幼兒園】廚工截至115年7月31日止",
-    "school": "徵才 明新學校財團法人明新科技大學",
-    "dept": "幼兒保育系",
-    "date": "2026-04-27",
-    "deadline": "-",
-    "type": "other",
-    "source": "NSTC",
-    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=30751",
     "tags": []
   }
 ]
