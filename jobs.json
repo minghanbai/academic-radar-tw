@@ -313,12 +313,12 @@
     "school": "國立暨南國際大學",
     "dept": "東南亞學系",
     "date": "2026-06-12",
-    "deadline": "2026-08-31",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29928",
+    "source": "NSTC",
+    "link": "https://web3.dgpa.gov.tw/want03front/AP/WANTF00002_3.aspx?WANT_SERIL_NO=1150603267",
     "tags": [
-      "南投縣埔里鎮"
+      "南投縣"
     ]
   },
   {
@@ -353,14 +353,14 @@
     "id": "5ZyL56uL5pqo5Y2X5ZyL6Zqb5aSn5a24fOWci+eri+aaqOWNl+Wci+mam+Wkp+WtuOmrmOm9oeiIh+mVt+acn+eFp+mhp+euoeeQhuWtuOWjq+WtuOS9jeWtuOeoi+iqoOW+teWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA2LTEy",
     "title": "國立暨南國際大學 高齡與長期照顧管理學士學位學程 誠徵專任教師公告",
     "school": "國立暨南國際大學",
-    "dept": "高齡與長期照顧管理學士學位學程",
+    "dept": "高齡健康與長期照顧管理學士學位學程原住民族專班",
     "date": "2026-06-12",
-    "deadline": "-",
+    "deadline": "2026-06-18",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://web3.dgpa.gov.tw/want03front/AP/WANTF00002_3.aspx?WANT_SERIL_NO=1150603248",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29926",
     "tags": [
-      "南投縣"
+      "南投縣埔里鎮"
     ]
   },
   {
@@ -640,6 +640,46 @@
     ]
   },
   {
+    "id": "5ZyL56uL5bGP5p2x5aSn5a24fOWci+eri+Wxj+adseWkp+WtuOWci+enkeacg+ijnOWKqeioiOeVq+S6uuaWh+WJteaWsOiIh+ekvuacg+Wvpui4kOesrOWFreacn+WNmuWjq+W+jOeglOeptuWToeW+temBuOWFrOWRiuWQjXwyMDI2LTA2LTEy",
+    "title": "國立屏東大學「國科會補助計畫」人文創新與社會實踐第六期博士後研究員徵選公告（１名）",
+    "school": "國立屏東大學",
+    "dept": "「國科",
+    "date": "2026-06-12",
+    "deadline": "-",
+    "type": "postdoc",
+    "source": "NSTC",
+    "link": "https://social.nptu.edu.tw/p/406-1128-196528,r1.php?Lang=zh-tw",
+    "tags": [
+      "屏東縣"
+    ]
+  },
+  {
+    "id": "5ZyL56eR5pyDfOmVt+W6mumGq+eZguiyoeWcmOazleS6uumGq+eglOmDqOmCsemmqOeRqeWJr+eglOeptuWToeW+teWtuOeiqeWjq+e0muWwiOS7u+eglOeptuWKqeeQhnwyMDI2LTA2LTEy",
+    "title": "長庚醫療財團法人醫研部 邱馨瑩副研究員 徵學/碩士級專任研究助理",
+    "school": "國科會",
+    "dept": "詳見標題",
+    "date": "2026-06-12",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/edcf00c4-25bf-4002-82cd-882f1ce87397?l=ch",
+    "tags": []
+  },
+  {
+    "id": "5ZyL56uL5Lit5bGx5aSn5a24fOWci+eri+S4reWxseWkp+WtuOWtuOWjq+W+jOmGq+WtuOezu+iqoOW+teW+rueUn+eJqeaaqOWFjeeWq+WtuOenkeWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaVmeW4qzHlkI18MjAyNi0wNi0xMg==",
+    "title": "國立中山大學學士後醫學系誠徵微生物暨免疫學科專任助理教授(含)以上教師1名",
+    "school": "國立中山大學",
+    "dept": "學士後醫學系",
+    "date": "2026-06-12",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/b207c73c-9656-4a69-9ffd-e477f82f4333?l=ch",
+    "tags": [
+      "高雄市"
+    ]
+  },
+  {
     "id": "5Lit5bGx6Yar5a245aSn5a24fOS4reWxsemGq+WtuOWkp+WtuOW/g+eQhuWtuOezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOS7peS4ijHlkI3mlLbku7boh7MxMTUwOTMwfDIwMjYtMDYtMTE=",
     "title": "中山醫學大學心理學系誠徵專任助理教授以上1名(收件至115/09/30)",
     "school": "中山醫學大學",
@@ -699,14 +739,14 @@
     "id": "5Lit5ZyL5paH5YyW5aSn5a24fOS4reWci+aWh+WMluWkp+WtuDExNeWtuOW5tOW6puaWsOiBmOaVmeW4q+WFrOmWi+W+teaxguS6uuaJjeeQhuW3peWtuOmZouizh+ioiuW3peeoi+WtuOezu3wyMDI2LTA2LTEx",
     "title": "中國文化大學115學年度新聘教師公開徵求人才(理工學院資訊工程學系)",
     "school": "中國文化大學",
-    "dept": "人事室",
+    "dept": "115學年度新聘教師公開徵求人才 理工學院",
     "date": "2026-06-11",
-    "deadline": "2026-08-31",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29899",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/334633cf-d578-4eba-bb18-0d913aebcd65?l=ch",
     "tags": [
-      "臺北市士林區"
+      "臺北市"
     ]
   },
   {
@@ -799,12 +839,12 @@
     "school": "中原大學",
     "dept": "電機工程學系",
     "date": "2026-06-11",
-    "deadline": "2026-09-30",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29902",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/ef89668d-fa33-44f1-bd58-427402c51c45?l=ch",
     "tags": [
-      "桃園市中壢區"
+      "桃園市"
     ]
   },
   {
@@ -8263,48 +8303,6 @@
     "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29660",
     "tags": [
       "臺中市北區"
-    ]
-  },
-  {
-    "id": "5a+m6LiQ5aSn5a24fOWvpui4kOWkp+WtuOacg+ioiOWtuOezu+W+teaxguWwiOahiOWwiOS7u+aVmeW4q3wyMDI2LTA1LTE4",
-    "title": "實踐大學會計學系徵求專案/專任教師",
-    "school": "實踐大學",
-    "dept": "人力資源室",
-    "date": "2026-05-18",
-    "deadline": "2026-05-30",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29659",
-    "tags": [
-      "臺北市中山區"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5p2x6I+v5aSn5a24fOWci+adseiPr+Wkp+WtuOizh+ioiueuoeeQhuWtuOezu+iqoOW+teWwiOS7u+aVmeW4qzLlkI18MjAyNi0wNS0xOA==",
-    "title": "國立東華大學資訊管理學系誠徵 專任教師 2 名",
-    "school": "國立東華大學",
-    "dept": "資訊管理學系",
-    "date": "2026-05-18",
-    "deadline": "2026-08-31",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29656",
-    "tags": [
-      "花蓮縣壽豐鄉"
-    ]
-  },
-  {
-    "id": "5piO5paw5a245qCh6LKh5ZyY5rOV5Lq65piO5paw56eR5oqA5aSn5a24fOW+teaJjeaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuOiPr+iqnuaWh+aVmeWtuOS4reW/g+iqoOW+teW+teiBmOWwiOahiOiPr+iqnuaVmeW4q+aIquatouiHszExNeW5tDXmnIgxOeaXpeatouaIquiHszExNeW5tDXmnIgyMuaXpeatonwyMDI2LTA1LTE4",
-    "title": "【徵才】明新學校財團法人明新科技大學【華語文教學中心】誠徵【徵聘專案華語教師】截止至115年5月19日止截至115年5月22日止",
-    "school": "明新學校財團法人明新科技大學",
-    "dept": "華語文教學中心",
-    "date": "2026-05-18",
-    "deadline": "2026-05-22",
-    "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29654",
-    "tags": [
-      "新竹縣新豐鄉"
     ]
   }
 ]
