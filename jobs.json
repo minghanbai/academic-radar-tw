@@ -112,6 +112,34 @@
     ]
   },
   {
+    "id": "5ZyL56uL6Ie65YyX5aSn5a24fOWci+eri+iHuuWMl+Wkp+WtuOmAmuitmOaVmeiCsuS4reW/g+iqoOW+teWFvOS7u+aVmeW4q+WFrOWRinwyMDI2LTA2LTI2",
+    "title": "國立臺北大學通識教育中心誠徵兼任教師公告",
+    "school": "國立臺北大學",
+    "dept": "通識教育中心",
+    "date": "2026-06-26",
+    "deadline": "2026-08-20",
+    "type": "adjunct",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30068",
+    "tags": [
+      "新北市三峽區"
+    ]
+  },
+  {
+    "id": "5Lit5Y6f5aSn5a24fOS4reWOn+Wkp+WtuOWMluWtuOezu+W+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wNi0yNg==",
+    "title": "中原大學化學系徵聘專任助理教授(含)以上1名",
+    "school": "中原大學",
+    "dept": "人事室",
+    "date": "2026-06-26",
+    "deadline": "2026-09-30",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30069",
+    "tags": [
+      "桃園市中壢區"
+    ]
+  },
+  {
     "id": "5ZyL56uL6auY6ZuE56eR5oqA5aSn5a24fOWci+eri+mrmOmbhOenkeaKgOWkp+WtuOa1t+S6i+WtuOmZouW+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuS5i+aVmeW4q+WFrOWRinwyMDI2LTA2LTI1",
     "title": "國立高雄科技大學海事學院徵聘專任助理教授(含)以上之教師公告",
     "school": "國立高雄科技大學",
@@ -227,14 +255,14 @@
     "id": "5ZyL56uL6Ie65p2x5bCI56eR5a245qChfOWci+eri+iHuuadseWwiOenkeWtuOagoemjn+WTgeenkeaKgOenkTExNeWtuOW5tOW6puesrDHlrbjmnJ/lvrXogZjlsIjmoYjliqnnkIbmlZnmjojkuZnlkI3nrKwz5qyh5YWs5ZGKfDIwMjYtMDYtMjU=",
     "title": "國立臺東專科學校食品科技科115學年度第1學期徵聘專案助理教授乙名(第3次公告)",
     "school": "國立臺東專科學校",
-    "dept": "食品科技科",
+    "dept": "食品科",
     "date": "2026-06-25",
-    "deadline": "2026-07-05",
+    "deadline": "-",
     "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30020",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/48a4fc83-34d6-43d2-80f8-2872ebf2f28d?l=ch",
     "tags": [
-      "臺東縣臺東市"
+      "臺東縣"
     ]
   },
   {
@@ -556,6 +584,20 @@
     ]
   },
   {
+    "id": "5Lit5ZyL56eR5oqA5aSn5a24fOS4reWci+enkeaKgOWkp+WtuOimj+WKg+iIh+ioreioiOWtuOmZouWcn+acqOiIh+mYsueBveezu+iqoOW+teWKqeeQhuaVmeaOiOS7peS4iuW4q+izh3wyMDI2LTA2LTI1",
+    "title": "中國科技大學規劃與設計學院 土木與防災系 誠徵助理教授以上師資",
+    "school": "中國科技大學",
+    "dept": "規劃與設計學院",
+    "date": "2026-06-25",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://pers.gm.cute.edu.tw/TC",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
     "id": "5ZyL56uL6Ie65YyX5aSn5a24fOWci+eri+iHuuWMl+Wkp+WtuOS4reWci+aWh+WtuOezu+iqoOW+teWwiOWFvOS7u+aVmeW4q+WFrOWRinwyMDI2LTA2LTI0",
     "title": "國立臺北大學中國文學系誠徵專兼任教師公告",
     "school": "國立臺北大學",
@@ -655,28 +697,28 @@
     "id": "5Lit5ZyL5paH5YyW5aSn5a24fOS4reWci+aWh+WMluWkp+WtuDExNeWtuOW5tOW6puaWsOiBmOaVmeW4q+WFrOmWi+W+teaxguS6uuaJjeeQhuW3peWtuOmZouapn+aisOW3peeoi+WtuOezu3wyMDI2LTA2LTI0",
     "title": "中國文化大學115學年度新聘教師公開徵求人才(理工學院機械工程學系)",
     "school": "中國文化大學",
-    "dept": "115學年度新聘教師公開徵求人才 理工學院",
+    "dept": "人事室",
     "date": "2026-06-24",
-    "deadline": "-",
+    "deadline": "2026-09-20",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/056233d4-4f43-4dc3-a3b4-7c30b8177dd9?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30016",
     "tags": [
-      "臺北市"
+      "臺北市士林區"
     ]
   },
   {
     "id": "5ZyL56uL5pqo5Y2X5ZyL6Zqb5aSn5a24fOWci+eri+aaqOWNl+Wci+mam+Wkp+WtuOaZuuaFp+WNiuWwjumrlOWPiue2oOiJsuenkeaKgOWci+mam+eiqeWjq+WtuOS9jeWtuOeoi+W+teiBmOWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA2LTI0",
     "title": "國立暨南國際大學智慧半導體及綠色科技國際碩士學位學程徵聘專任教師公告",
     "school": "國立暨南國際大學",
-    "dept": "智慧半導體及綠色科",
+    "dept": "智慧半導體及綠色科技國際碩士學位學程",
     "date": "2026-06-24",
-    "deadline": "-",
+    "deadline": "2026-09-15",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://web3.dgpa.gov.tw/want03front/AP/WANTF00001_1.aspx?work_id=%7e%ef%bc%88%ef%bc%88%ef%bc%83%ef%bc%8a%ef%bc%84%ef%bc%8a%ef%bc%83%ef%bc%a0%ef%b8%bf8",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30018",
     "tags": [
-      "南投縣"
+      "南投縣埔里鎮"
     ]
   },
   {
@@ -973,12 +1015,12 @@
     "school": "中山醫學大學",
     "dept": "物理治療學系",
     "date": "2026-06-23",
-    "deadline": "-",
+    "deadline": "2026-09-15",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/95e95e09-5ad2-4efe-925f-d0204b77c0db?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30001",
     "tags": [
-      "臺中市"
+      "臺中市南區"
     ]
   },
   {
@@ -8267,48 +8309,6 @@
     "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29771",
     "tags": [
       "桃園市龜山區"
-    ]
-  },
-  {
-    "id": "5ZyL6Ziy5aSn5a24fOWci+mYsuWkp+WtuOeQhuW3peWtuOmZouizh+ioiuW3peeoi+WtuOezu+W+teiBmOWwiOS7u+aWh+iBt+aVmeW4q+WNmuWjq+WtuOS9jeaIluWKqeeQhuaVmeaOiOS7peS4iuizh+agvHwyMDI2LTA1LTI5",
-    "title": "國防大學理工學院資訊工程學系徵聘專任文職教師(博士學位或助理教授以上資格)",
-    "school": "國防大學",
-    "dept": "理工學院資訊工程學系",
-    "date": "2026-05-29",
-    "deadline": "2026-09-07",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29769",
-    "tags": [
-      "桃園市大溪區"
-    ]
-  },
-  {
-    "id": "5Lit5aSu6K2m5a+f5aSn5a24fOWFrOWRiuS4reWkruitpuWvn+Wkp+WtuOeUhOiBmOawtOS4iuitpuWvn+WtuOezu+WKqeeQhuaVmeaOiOe0muWwiOS7u+aVmeW4qzHlkI3ovKrmqZ/lsIjplbd8MjAyNi0wNS0yOQ==",
-    "title": "公告中央警察大學甄聘水上警察學系助理教授級專任教師1名（輪機專長）",
-    "school": "中央警察大學",
-    "dept": "人事室",
-    "date": "2026-05-29",
-    "deadline": "2026-07-01",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29772",
-    "tags": [
-      "桃園市龜山區"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5Lit6IiI5aSn5a24fOWci+eri+S4reiIiOWkp+WtuOWci+WutuaUv+etluiIh+WFrOWFseS6i+WLmeeglOeptuaJgOW+teiBmOWwiOS7u+aVmeW4qzEy5ZCNfDIwMjYtMDUtMjk=",
-    "title": "國立中興大學國家政策與公共事務研究所徵聘專任教師（1~2名）",
-    "school": "國立中興大學",
-    "dept": "國立中興大學 國家政策與公共事務研究所",
-    "date": "2026-05-29",
-    "deadline": "2026-07-28",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=29779",
-    "tags": [
-      "臺中市南區"
     ]
   }
 ]
