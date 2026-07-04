@@ -1,5 +1,19 @@
 [
   {
+    "id": "5ZyL56uL5Lit5bGx5aSn5a24fOWci+eri+S4reWxseWkp+WtuOizh+ioiueuoeeQhuWtuOezu+iqoOW+teWwiOS7u+aVmeW4q3wyMDI2LTA3LTA0",
+    "title": "國立中山大學資訊管理學系誠徵專任教師",
+    "school": "國立中山大學",
+    "dept": "資訊管理學系",
+    "date": "2026-07-04",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://web.mis.nsysu.edu.tw/p/406-1232-194226,r88.php?Lang=zh-tw",
+    "tags": [
+      "高雄市"
+    ]
+  },
+  {
     "id": "5ZyL56uL5bGP5p2x56eR5oqA5aSn5a24fOWci+eri+Wxj+adseenkeaKgOWkp+WtuDExNeWtuOW5tOW6puesrDLlrbjmnJ/lvrXogZjlsIjku7vmlZnluKvlhazlkYrnjbjphqvlrbjns7t8MjAyNi0wNy0wMw==",
     "title": "國立屏東科技大學115學年度第2學期徵聘「專任教師」公告(獸醫學系)",
     "school": "國立屏東科技大學",
@@ -277,16 +291,16 @@
   },
   {
     "id": "5ZyL56uL5pqo5Y2X5ZyL6Zqb5aSn5a24fOWci+eri+aaqOWNl+Wci+mam+Wkp+WtuOS6uuaWh+WtuOmZouWOn+S9j+awkeaWh+WMlueUoualreiIh+ekvuacg+W3peS9nOWtuOWjq+WtuOS9jeWtuOeoi+WOn+S9j+awkeaXj+WwiOePreiqoOW+teWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA3LTAy",
-    "title": "國立暨南國際大學 人文學院「原住民文化產業與社會工作學士學位學程原住民族專班」誠徵專任教師公告",
+    "title": "國立暨南國際大學 人文學院「原住民文化產業與社會工作學士學位學程原住民族專班」 誠徵專任教師公告",
     "school": "國立暨南國際大學",
-    "dept": "人文學院原住民文化產業與社會工作學士學位學程原住民族專班",
+    "dept": "人文學院",
     "date": "2026-07-02",
-    "deadline": "2026-07-16",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30127",
+    "source": "NSTC",
+    "link": "https://web3.dgpa.gov.tw/want03front/AP/WANTF00002_3.aspx?WANT_SERIL_NO=1150700660",
     "tags": [
-      "南投縣埔里鎮"
+      "南投縣"
     ]
   },
   {
@@ -8267,20 +8281,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/e954513c-a3db-4b20-bd42-2fdd61a146f1?l=ch",
     "tags": [
       "雲林縣"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5oiQ5Yqf5aSn5a24fOWci+eri+aIkOWKn+Wkp+WtuOaVuOWtuOezu+ePvuWFrOmWi+W+teiBmOaVuOWtuOebuOmXnOmgmOWfn+WKqeeQhuaVmeaOiOS7peS4iuS5i+WwiOS7u+aVmeW4q+i1t+iBmOaXpeacn+iogueCujIwMjflubQy5pyIMeaXpeaIljIwMjflubQ45pyIMeaXpXwyMDI2LTA2LTA4",
-    "title": "國立成功大學數學系現公開徵聘數學相關領域助理教授以上之專任教師，起聘日期訂為2027年2月1日或2027年8月1日。",
-    "school": "國立成功大學",
-    "dept": "數學系",
-    "date": "2026-06-08",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/f6516c61-8f70-4d7c-befc-ca63be4c6e9d?l=ch",
-    "tags": [
-      "臺南市"
     ]
   }
 ]
