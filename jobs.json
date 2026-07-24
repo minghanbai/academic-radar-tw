@@ -84,6 +84,20 @@
     ]
   },
   {
+    "id": "5ZyL56uL5oiQ5Yqf5aSn5a24fOWci+eri+aIkOWKn+Wkp+WtuOWMluW3peezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaVmeW4q+eUs+iri+WIsDIwMjYwODMxfDIwMjYtMDctMjQ=",
+    "title": "國立成功大學化工系誠徵專任助理教授(含)以上教師(申請到2026.08.31)",
+    "school": "國立成功大學",
+    "dept": "化工系",
+    "date": "2026-07-24",
+    "deadline": "2026-08-31",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30375",
+    "tags": [
+      "臺南市東區"
+    ]
+  },
+  {
     "id": "5ZyL56uL6Ie654Gj5aSn5a24fOWci+eri+iHuueBo+Wkp+WtuOmGq+WtuOmZouiFpuiIh+W/g+aZuuenkeWtuOeglOeptuaJgOiqoOW+teWKqeeQhuaVmeaOiOe0muWQq+S7peS4iuWwiOS7u+aVmeW4q+aVuOWQjXwyMDI2LTA3LTIz",
     "title": "國立臺灣大學醫學院腦與心智科學研究所誠徵助理教授級(含)以上專任教師數名",
     "school": "國立臺灣大學",
@@ -431,12 +445,12 @@
     "school": "長庚大學",
     "dept": "醫學生物技術暨檢驗學系",
     "date": "2026-07-22",
-    "deadline": "-",
+    "deadline": "2026-10-30",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/6a3a49ae-4810-4b4f-b89f-70a891d80e44?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30357",
     "tags": [
-      "桃園市"
+      "桃園市龜山區"
     ]
   },
   {
@@ -457,14 +471,14 @@
     "id": "6YCi55Sy5aSn5a24fOmAoueUsuWkp+WtuOmHkeiejeWtuOmZoumiqOmaqueuoeeQhuiIh+S/nemaquWtuOezu+WwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaIlue0hOiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wNy0yMg==",
     "title": "逢甲大學/金融學院 /風險管理與保險學系/專任助理教授(含以上)或約聘專任助理教授(含以上)1名",
     "school": "逢甲大學",
-    "dept": "金融學院",
+    "dept": "金融學院 /風險管理與保險學系",
     "date": "2026-07-22",
-    "deadline": "-",
+    "deadline": "2026-08-31",
     "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/e447e459-ed3e-4fe7-b2f4-7b5ee9aad4c8?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30360",
     "tags": [
-      "臺中市"
+      "臺中市西屯區"
     ]
   },
   {
@@ -8263,20 +8277,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/f37443bf-8466-4e34-8df2-56a940751007?l=ch",
     "tags": [
       "臺北市"
-    ]
-  },
-  {
-    "id": "6LyU5LuB5aSn5a24fOi8lOS7geWkp+WtuOWtuOagoeiyoeWcmOazleS6uui8lOS7geWkp+WtuOaWsOiBnuWCs+aSreWtuOezu+iqoOW+teiqoOW+teWKqeeQhuaVmeaOiOe0muWQq+S7peS4iuWwiOS7u+WwiOahiOaVmeWtuOS6uuWToeaLm+WLn+iHszIwMjYwOTEw5oiq5q2ifDIwMjYtMDYtMjk=",
-    "title": "輔仁大學學校財團法人輔仁大學-新聞傳播學系誠徵誠徵助理教授級(含)以上專任/專案教學人員-招募至 2026-09-10 截止",
-    "school": "輔仁大學",
-    "dept": "學校財團法人輔仁大學-新聞傳播學系",
-    "date": "2026-06-29",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://job.fju.edu.tw/#/vacaDtl/674",
-    "tags": [
-      "新北市"
     ]
   }
 ]
