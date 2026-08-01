@@ -1,5 +1,19 @@
 [
   {
+    "id": "5b615omN5ZWf5LqLIOWci+eri+S4reWkruWkp+WtuHzlvrXmiY3llZ/kuovlnIvnq4vkuK3lpK7lpKflrbjntpPmv5/lrbjns7vlvrXogZjlsIjku7vmlZnluKt8MjAyNi0wOC0wMQ==",
+    "title": "【徵才啟事】國立中央大學經濟學系　徵聘專任教師",
+    "school": "徵才啟事 國立中央大學",
+    "dept": "經濟學系",
+    "date": "2026-08-01",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/415787aa-9cc0-432c-8357-a0e8eb4fc6d9?l=ch",
+    "tags": [
+      "桃園市"
+    ]
+  },
+  {
     "id": "5ZyL56uL6IGv5ZCI5aSn5a24fOWci+eri+iBr+WQiOWkp+WtuOadkOaWmeenkeWtuOW3peeoi+WtuOezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuS4gOWQjXwyMDI2LTA3LTMx",
     "title": "國立聯合大學材料科學工程學系誠徵專任助理教授(含)以上一名",
     "school": "國立聯合大學",
@@ -461,26 +475,26 @@
     "school": "國立中正大學",
     "dept": "教育學研究所",
     "date": "2026-07-29",
-    "deadline": "2026-09-10",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30420",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/c35543f0-e9ae-4507-9856-18e613b2430a?l=ch",
     "tags": [
-      "嘉義縣民雄鄉"
+      "嘉義縣"
     ]
   },
   {
     "id": "5byY5YWJ56eR5oqA5aSn5a24fOW8mOWFieenkeaKgOWkp+WtuOW5vOWFkuS/neiCsuezu+WwiOahiOaIluWwiOS7u+ism+W4q+S7peS4iuW4q+izh3wyMDI2LTA3LTI5",
     "title": "弘光科技大學【幼兒保育系】專案或專任講師以上師資",
     "school": "弘光科技大學",
-    "dept": "人事室",
+    "dept": "幼兒保育系",
     "date": "2026-07-29",
-    "deadline": "2026-08-10",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30422",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/230d153b-d8c2-4d15-a1b2-a0e1c127739b?l=ch",
     "tags": [
-      "臺中市沙鹿區"
+      "臺中市"
     ]
   },
   {
@@ -501,14 +515,14 @@
     "id": "5ZyL56uL5bGP5p2x56eR5oqA5aSn5a24fOWci+eri+Wxj+adseenkeaKgOWkp+WtuDExNeWtuOW5tOW6puesrDLlrbjmnJ/lvrXogZjlsIjmoYjmlZnluKvlhazlkYrkvJHpgYvns7vnt6jliLblpJblsIjku7vmlZnlrbjkurrlk6F8MjAyNi0wNy0yOQ==",
     "title": "國立屏東科技大學115學年度第2學期徵聘「專案教師」公告(休運系/編制外專任教學人員)",
     "school": "國立屏東科技大學",
-    "dept": "人事室",
+    "dept": "115學年度第2學期徵聘「專案教師」公告 休運系",
     "date": "2026-07-29",
-    "deadline": "2026-08-21",
+    "deadline": "-",
     "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30421",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/149cb8de-4874-41fc-8437-c146cf2e53f1?l=ch",
     "tags": [
-      "屏東縣內埔鄉"
+      "屏東縣"
     ]
   },
   {
@@ -8273,20 +8287,6 @@
     "type": "assistant",
     "source": "NSTC",
     "link": "https://www.nstc.gov.tw/folksonomy/detail/8d95cfe6-80f7-4283-87c1-286628de0e39?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5pS/5rK75aSn5a24fOWci+eri+aUv+ayu+Wkp+WtuOWCs+aSreWtuOmZouael+aXpeeSh+iAgeW4q+WqkumrlOW/g+eQhuWvpumpl+WupOW+teiBmOWNmuWjq+W+jOeglOeptuWToXwyMDI2LTA3LTAy",
-    "title": "國立政治大學傳播學院 林日璇老師媒體心理實驗室 徵聘博士後研究員",
-    "school": "國立政治大學",
-    "dept": "傳播學院",
-    "date": "2026-07-02",
-    "deadline": "-",
-    "type": "postdoc",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/90901ff7-3d8e-4513-8c56-ffe7d7d99b56?l=ch",
     "tags": [
       "臺北市"
     ]
