@@ -1,5 +1,17 @@
 [
   {
+    "id": "5ZyL56eR5pyDfOWPsOeBo+Wfuuedo+mVt+iAgeaVmeacg+mmrOWBlemGq+eZguiyoeWcmOazleS6uummrOWBlee0gOW/temGq+mZoumGq+WtuOeglOeptumDqOW/g+eQhuWPiuihjOeCuuenkeWtuOeglOeptue1hOiqoOW+teWwiOahiOeglOeptuWKqeeQhnwyMDI2LTA4LTA4",
+    "title": "台灣基督長老教會馬偕醫療財團法人馬偕紀念醫院醫學研究部心理及行為科學研究組誠徵專案研究助理",
+    "school": "國科會",
+    "dept": "詳見標題",
+    "date": "2026-08-08",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/5874416d-dcfd-4997-89eb-64d77d2384e4?l=ch",
+    "tags": []
+  },
+  {
     "id": "5ZyL56eR5pyDfOe+qeWkp+mGq+eZguiyoeWcmOazleS6uue+qeWkp+eZjOayu+eZgumGq+mZoumrmOmbhOeHleW3oueyvua6luS4remGq+iXpeWIhuWtkOmGq+WtuOeglOeptumDqOiqoOW+teeiqeWjq+e0muWKqeeQhnwyMDI2LTA4LTA3",
     "title": "義大醫療財團法人義大癌治療醫院(高雄燕巢)精準中醫藥分子醫學研究部誠徵碩士級助理",
     "school": "國科會",
@@ -233,14 +245,14 @@
     "id": "5YWD5pm65aSn5a24fOWFg+aZuuWkp+WtuOizh+ioiuWCs+aSreWtuOezuzExNeWtuOW5tOW6puesrDLlrbjmnJ/oqqDlvrXlsIjku7vmlZnluKsx5ZCNfDIwMjYtMDgtMDY=",
     "title": "元智大學資訊傳播學系 115 學年度第 2 學期 誠徵專任教師1名",
     "school": "元智大學",
-    "dept": "資訊傳播學系",
+    "dept": "元智大學資訊傳播學系",
     "date": "2026-08-06",
-    "deadline": "-",
+    "deadline": "2026-10-23",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://reurl.cc/gNQveL",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30475",
     "tags": [
-      "桃園市"
+      "桃園市中壢區"
     ]
   },
   {
@@ -305,12 +317,12 @@
     "school": "國立政治大學",
     "dept": "勞工研究所",
     "date": "2026-08-06",
-    "deadline": "-",
+    "deadline": "2026-11-30",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/f1e7a9ec-e1cf-4097-a4f5-a7101fbc0fdb?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30472",
     "tags": [
-      "臺北市"
+      "臺北市文山區"
     ]
   },
   {
@@ -509,28 +521,26 @@
     "id": "5Lqe5p2x5a245qCh6LKh5ZyY5rOV5Lq65Lqe5p2x56eR5oqA5aSn5a24fOS6nuadseWtuOagoeiyoeWcmOazleS6uuS6nuadseenkeaKgOWkp+WtuOmAmuitmOaVmeiCsuS4reW/g+W+teiBmOiLseaWh+WwiOahiOWKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wOC0wNQ==",
     "title": "亞東學校財團法人亞東科技大學【通識教育中心】徵聘英文專案助理教授(含)以上1名",
     "school": "亞東學校財團法人亞東科技大學",
-    "dept": "人事室",
+    "dept": "通識教育中心",
     "date": "2026-08-05",
-    "deadline": "2026-08-13",
+    "deadline": "-",
     "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30464",
-    "tags": [
-      "新北市板橋區"
-    ]
+    "source": "NSTC",
+    "link": "https://hr.aeust.edu.tw/p/405-1011-57481,c2189.php",
+    "tags": []
   },
   {
     "id": "5ZyL56uL6Ie654Gj5aSn5a24fOWci+eri+iHuueBo+Wkp+WtuOaVmeWLmeiZleaVmeWtuOeZvOWxleS4reW/g+imj+WKg+eglOeptue1hOiqoOW+teioiOeVq+WNmuWjq+W+jOe0mueglOeptuS6uuWToTHlkI18MjAyNi0wOC0wNQ==",
     "title": "國立臺灣大學教務處教學發展中心規劃研究組誠徵計畫博士後（級）研究人員 1 名",
     "school": "國立臺灣大學",
-    "dept": "教務處",
+    "dept": "教務處教學發展中心",
     "date": "2026-08-05",
-    "deadline": "-",
+    "deadline": "2026-08-31",
     "type": "postdoc",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/98b1008e-9e90-4341-bedc-d2d84be88ff5?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30461",
     "tags": [
-      "臺北市"
+      "臺北市大安區"
     ]
   },
   {
@@ -551,13 +561,15 @@
     "id": "5Lqe5p2x5a245qCh6LKh5ZyY5rOV5Lq65Lqe5p2x56eR5oqA5aSn5a24fOS6nuadseWtuOagoeiyoeWcmOazleS6uuS6nuadseenkeaKgOWkp+WtuOmAmuitmOaVmeiCsuS4reW/g+W+teiBmOiPr+iqnuWci+aWh+WwiOahiOWKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wOC0wNQ==",
     "title": "亞東學校財團法人亞東科技大學【通識教育中心】徵聘華語(國文)專案助理教授(含)以上1名",
     "school": "亞東學校財團法人亞東科技大學",
-    "dept": "通識教育中心",
+    "dept": "人事室",
     "date": "2026-08-05",
-    "deadline": "-",
+    "deadline": "2026-08-13",
     "type": "project",
-    "source": "NSTC",
-    "link": "https://hr.aeust.edu.tw/p/405-1011-57482,c2189.php",
-    "tags": []
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30463",
+    "tags": [
+      "新北市板橋區"
+    ]
   },
   {
     "id": "5ZyL56uL6auY6ZuE56eR5oqA5aSn5a24fOWci+eri+mrmOmbhOenkeaKgOWkp+WtuOa1t+a0i+eUn+eJqeaKgOihk+ezu+WwiOS7u+aVmeW4q+W+teaJjeWFrOWRinwyMDI2LTA4LTA1",
@@ -633,12 +645,12 @@
     "school": "中原大學",
     "dept": "外語教學中心",
     "date": "2026-08-05",
-    "deadline": "2026-08-16",
+    "deadline": "-",
     "type": "adjunct",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30468",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/1610f0c7-d625-4de8-bd52-a434893ddddf?l=ch",
     "tags": [
-      "桃園市中壢區"
+      "桃園市"
     ]
   },
   {
@@ -659,14 +671,14 @@
     "id": "6YCi55Sy5aSn5a24fOmAoueUsuWkp+WtuOizh+ioiumbu+apn+WtuOmZouiHquWLleaOp+WItuW3peeoi+WtuOezu+WwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaIlue0hOiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wOC0wNQ==",
     "title": "逢甲大學/資訊電機學院/自動控制工程學系/專任助理教授(含以上)或約聘專任助理教授(含以上)1名",
     "school": "逢甲大學",
-    "dept": "資訊電機學院",
+    "dept": "資訊電機學院/自動控制工程學系",
     "date": "2026-08-05",
-    "deadline": "-",
+    "deadline": "2026-10-31",
     "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/dc501bc3-549f-48f6-b3ce-39bc371ae671?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30469",
     "tags": [
-      "臺中市"
+      "臺中市西屯區"
     ]
   },
   {
@@ -8261,20 +8273,6 @@
     "type": "assistant",
     "source": "NSTC",
     "link": "https://www.nstc.gov.tw/folksonomy/detail/3b397e5f-af4d-4ddf-ac9e-205c7f7eb3bc?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Ie65YyX6K2355CG5YGl5bq35aSn5a24fOWci+eri+iHuuWMl+itt+eQhuWBpeW6t+Wkp+WtuOWBpeW6t+enkeaKgOWtuOmZouS8kemWkueUoualreiIh+WBpeW6t+S/g+mAsuezu+W+teiBmOWKqeeQhuaVmeaOiOe0muWwiOahiOioiOeVq+aVmeWtuOS6uuWToTHlkI0xMTU5MTjmiKrmraJ8MjAyNi0wNy0wNw==",
-    "title": "國立臺北護理健康大學健康科技學院休閒產業與健康促進系徵聘助理教授級專案計畫教學人員1名（115.9.18截止）",
-    "school": "國立臺北護理健康大學",
-    "dept": "健康科",
-    "date": "2026-07-07",
-    "deadline": "-",
-    "type": "project",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/2f0f911d-047a-45f6-80a5-0931ff97041c?l=ch",
     "tags": [
       "臺北市"
     ]
