@@ -1,5 +1,33 @@
 [
   {
+    "id": "5ZyL56uL5p2x6I+v5aSn5a24fOWci+eri+adseiPr+Wkp+WtuOeJqeeQhuWtuOezu+iqoOW+teWwiOS7u+aVmeW4q+S6jOWQjXwyMDI2LTA4LTEy",
+    "title": "國立東華大學物理學系誠徵專任教師二名",
+    "school": "國立東華大學",
+    "dept": "物理學系",
+    "date": "2026-08-12",
+    "deadline": "2027-02-15",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30519",
+    "tags": [
+      "花蓮縣壽豐鄉"
+    ]
+  },
+  {
+    "id": "5ZyL56uL5Lit6IiI5aSn5a24fOWci+eri+S4reiIiOWkp+WtuOeSsOWig+W3peeoi+WtuOezu+iqoOW+teWwiOS7u+aVmeW4q+W7tumVt+WFrOWRinwyMDI2LTA4LTEy",
+    "title": "國立中興大學環境工程學系誠徵專任教師延長公告",
+    "school": "國立中興大學",
+    "dept": "環境工程學系",
+    "date": "2026-08-12",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.ev.nchu.edu.tw/index.asp?uno=12&cno=5&ano=4318",
+    "tags": [
+      "臺中市"
+    ]
+  },
+  {
     "id": "5ZyL56uL6Ie65Lit5pWZ6IKy5aSn5a24fOWci+eri+iHuuS4reaVmeiCsuWkp+WtuOWNgOWfn+iIh+ekvuacg+eZvOWxleWtuOezu+W+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaIluS7peagoeWLmeWfuumHkemAsueUqOaVmeWtuOS6uuWToei6q+WIhuiBmOS7u+iBt+e0muaVmeW4qzHlkI3lu7bplbflhazlkYp8MjAyNi0wOC0xMQ==",
     "title": "國立臺中教育大學區域與社會發展學系徵聘專任助理教授（含）以上(或以校務基金進用教學人員身分聘任)職級教師1名(延長公告)",
     "school": "國立臺中教育大學",
@@ -131,12 +159,12 @@
     "school": "國立聯合大學",
     "dept": "環境與安全衛生工程學系",
     "date": "2026-08-10",
-    "deadline": "2026-09-11",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30488",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/a6939405-7efc-41c2-beae-b05a68858c5c?l=ch",
     "tags": [
-      "苗栗縣苗栗市"
+      "苗栗縣"
     ]
   },
   {
@@ -793,12 +821,12 @@
     "school": "國立政治大學",
     "dept": "勞工研究所",
     "date": "2026-08-06",
-    "deadline": "2026-11-30",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30472",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/f1e7a9ec-e1cf-4097-a4f5-a7101fbc0fdb?l=ch",
     "tags": [
-      "臺北市文山區"
+      "臺北市"
     ]
   },
   {
@@ -8255,34 +8283,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/88db2541-bcb8-4fee-8673-babb6c057ed6?l=ch",
     "tags": [
       "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5b2w5YyW5bir56+E5aSn5a24fOWci+eri+W9sOWMluW4q+evhOWkp+WtuOmbu+WtkOW3peeoi+WtuOezu+iqoOiBmFZMU0lTb0PmiJZBSemgmOWfn+WwiOS7u+ahiOaVmeW4q3wyMDI2LTA3LTA4",
-    "title": "國立彰化師範大學電子工程學系誠聘VLSI/SoC或AI領域專任(案)教師",
-    "school": "國立彰化師範大學",
-    "dept": "電子工程學系",
-    "date": "2026-07-08",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/5fab2696-b09c-43f1-ac93-79ca707ebefc?l=ch",
-    "tags": [
-      "彰化縣"
-    ]
-  },
-  {
-    "id": "6Z2c5a6c5aSn5a24fOmdnOWunOWkp+WtuOawuOe6jOeSsOWig+iIh+aZuuaFp+enkeaKgOWtuOWjq+WtuOS9jeWtuOeoi+iqoOW+teWwiOS7u+aVmeW4q+aIluWwiOahiOe0hOiBmOaVmeW4qzHlkI18MjAyNi0wNy0wOA==",
-    "title": "靜宜大學永續環境與智慧科技學士學位學程誠徵專任教師或專案約聘教師 1名",
-    "school": "靜宜大學",
-    "dept": "人事室",
-    "date": "2026-07-08",
-    "deadline": "2026-10-20",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30209",
-    "tags": [
-      "臺中市沙鹿區"
     ]
   }
 ]
