@@ -155,15 +155,13 @@
     "id": "5Lqe5p2x5a245qCh6LKh5ZyY5rOV5Lq65Lqe5p2x56eR5oqA5aSn5a24fOS6nuadseWtuOagoeiyoeWcmOazleS6uuS6nuadseenkeaKgOWkp+WtuOmAmuioiuW3peeoi+ezu+W+teiBmOWwiOS7u+WwiOahiOWKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wOC0yMA==",
     "title": "亞東學校財團法人亞東科技大學【通訊工程系】徵聘專任/專案助理教授(含)以上1名",
     "school": "亞東學校財團法人亞東科技大學",
-    "dept": "人事室",
+    "dept": "通訊工程系",
     "date": "2026-08-20",
-    "deadline": "2026-08-30",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30565",
-    "tags": [
-      "新北市板橋區"
-    ]
+    "source": "NSTC",
+    "link": "https://hr.aeust.edu.tw/p/405-1011-57575,c2189.php",
+    "tags": []
   },
   {
     "id": "5ZyL56uL6auY6ZuE5aSn5a24fOWci+eri+mrmOmbhOWkp+WtuOmBi+WLleWBpeW6t+iIh+S8kemWkuWtuOezu+W+teiBmOWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA4LTIw",
@@ -510,6 +508,32 @@
     ]
   },
   {
+    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjooYzpirfoiIfmtYHpgJrnrqHnkIbns7voqqDlvrXlsIjmoYjoqIjnlavkurrlk6HmiKroh7MxMTXlubQ55pyIMzDml6V8MjAyNi0wOC0yMA==",
+    "title": "【徵才】明新學校財團法人明新科技大學【行銷與流通管理系】誠徵【專案計畫人員】截至115年9月30日",
+    "school": "徵才 明新學校財團法人明新科技大學",
+    "dept": "行銷與流通管理系",
+    "date": "2026-08-20",
+    "deadline": "-",
+    "type": "project",
+    "source": "NSTC",
+    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=31768",
+    "tags": []
+  },
+  {
+    "id": "5p2x5Y2X56eR5oqA5aSn5a24fOadseWNl+enkeaKgOWkp+WtuOS8kemWkuS6i+alreeuoeeQhuezu+W+teiBmOe0hOiBmOWwiOahiOaVmeW4q+W7tumVt+WFrOWRinwyMDI2LTA4LTIw",
+    "title": "東南科技大學休閒事業管理系徵聘約聘專案教師(延長公告)",
+    "school": "東南科技大學",
+    "dept": "休閒事業管理系",
+    "date": "2026-08-20",
+    "deadline": "-",
+    "type": "project",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/63bf9db0-4c25-4737-bccf-8e9c0e3a69cc?l=ch",
+    "tags": [
+      "新北市"
+    ]
+  },
+  {
     "id": "5reh5rGf5aSn5a24fOa3oeaxn+Wkp+WtuOWtuOagoeiyoeWcmOazleS6uua3oeaxn+Wkp+WtuDExNeWtuOW5tOW6puesrDLlrbjmnJ/lu7bmlKzlsIjku7vluKvos4flhazlkYrmlZnlv4PmiYDpq5jpvaHlgaXlurfmiYDmmbrmhafnhaforbfmiYB8MjAyNi0wOC0xOQ==",
     "title": "淡江大學學校財團法人淡江大學115學年度第2學期延攬【專任師資】公告(教心所、高齡健康所、智慧照護所)",
     "school": "淡江大學",
@@ -553,14 +577,14 @@
     "id": "5Lqe5rSy5aSn5a24fOS6nua0suWkp+WtuOiBt+iDveayu+eZguWtuOezu+W+teiBmOWwiOS7u+ahiOWKqeeQhuaVmeaOiOS7peS4iuW4q+izh3wyMDI2LTA4LTE5",
     "title": "亞洲大學職能治療學系徵聘專任(案)助理教授以上師資",
     "school": "亞洲大學",
-    "dept": "亞洲大學職能治療學系",
+    "dept": "職能治療學系",
     "date": "2026-08-19",
-    "deadline": "2026-11-30",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30558",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/95b7e44f-03a8-4844-9275-1f11e1488097?l=ch",
     "tags": [
-      "臺中市霧峰區"
+      "臺中市"
     ]
   },
   {
@@ -8237,34 +8261,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/55464e2e-5c71-4823-bf9a-16e044f9f322?l=ch",
     "tags": [
       "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Ie65YyX5aSn5a24fOWci+eri+iHuuWMl+Wkp+WtuOS6uuW3peaZuuaFp+aHieeUqOiIh+euoeeQhuiLseiqnueiqeWjq+WtuOS9jeWtuOeoi+aLm+iBmDExNeWtuOW5tOW6pue0hOiBmOaVmeWtuOS6uuWToeWKqeeQhuaVmeaOiOe0muS7peS4inwyMDI2LTA3LTE4",
-    "title": "國立臺北大學人工智慧應用與管理英語碩士學位學程招聘115學年度約聘教學人員（助理教授級以上）",
-    "school": "國立臺北大學",
-    "dept": "人工智慧應用與管理英語碩士學位學程",
-    "date": "2026-07-18",
-    "deadline": "-",
-    "type": "project",
-    "source": "NSTC",
-    "link": "https://www.shm.ntpu.edu.tw/web/news/news_in.jsp?np_id=NP1783569448419 ",
-    "tags": [
-      "新北市"
-    ]
-  },
-  {
-    "id": "5paH6Je75aSW6Kqe5aSn5a24fOaHieeUqOiPr+iqnuaWh+ezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOaIluS7peS4iuizh+agvDHlkI18MjAyNi0wNy0xNw==",
-    "title": "應用華語文系誠徵專任助理教授或以上資格1名",
-    "school": "文藻外語大學",
-    "dept": "應用華語文系",
-    "date": "2026-07-17",
-    "deadline": "2026-07-21",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30329",
-    "tags": [
-      "高雄市三民區"
     ]
   }
 ]
