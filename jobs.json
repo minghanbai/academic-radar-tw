@@ -155,13 +155,15 @@
     "id": "5Lqe5p2x5a245qCh6LKh5ZyY5rOV5Lq65Lqe5p2x56eR5oqA5aSn5a24fOS6nuadseWtuOagoeiyoeWcmOazleS6uuS6nuadseenkeaKgOWkp+WtuOmAmuioiuW3peeoi+ezu+W+teiBmOWwiOS7u+WwiOahiOWKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wOC0yMA==",
     "title": "亞東學校財團法人亞東科技大學【通訊工程系】徵聘專任/專案助理教授(含)以上1名",
     "school": "亞東學校財團法人亞東科技大學",
-    "dept": "通訊工程系",
+    "dept": "人事室",
     "date": "2026-08-20",
-    "deadline": "-",
+    "deadline": "2026-08-30",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://hr.aeust.edu.tw/p/405-1011-57575,c2189.php",
-    "tags": []
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30565",
+    "tags": [
+      "新北市板橋區"
+    ]
   },
   {
     "id": "5ZyL56uL6auY6ZuE5aSn5a24fOWci+eri+mrmOmbhOWkp+WtuOmBi+WLleWBpeW6t+iIh+S8kemWkuWtuOezu+W+teiBmOWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA4LTIw",
@@ -534,6 +536,20 @@
     ]
   },
   {
+    "id": "5ZyL56uL5p2x6I+v5aSn5a24fOWci+eri+adseiPr+Wkp+WtuOmbu+apn+W3peeoi+WtuOezu+W+teiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuS5i+WwiOS7u+W4q+izhzPlkI18MjAyNi0wOC0yMA==",
+    "title": "國立東華大學電機工程學系徵聘專任助理教授(含)以上之專任師資3名",
+    "school": "國立東華大學",
+    "dept": "電機工程學系",
+    "date": "2026-08-20",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://ee.ndhu.edu.tw/p/406-1044-261380,r817.php?Lang=zh-tw",
+    "tags": [
+      "花蓮縣"
+    ]
+  },
+  {
     "id": "5reh5rGf5aSn5a24fOa3oeaxn+Wkp+WtuOWtuOagoeiyoeWcmOazleS6uua3oeaxn+Wkp+WtuDExNeWtuOW5tOW6puesrDLlrbjmnJ/lu7bmlKzlsIjku7vluKvos4flhazlkYrmlZnlv4PmiYDpq5jpvaHlgaXlurfmiYDmmbrmhafnhaforbfmiYB8MjAyNi0wOC0xOQ==",
     "title": "淡江大學學校財團法人淡江大學115學年度第2學期延攬【專任師資】公告(教心所、高齡健康所、智慧照護所)",
     "school": "淡江大學",
@@ -577,14 +593,14 @@
     "id": "5Lqe5rSy5aSn5a24fOS6nua0suWkp+WtuOiBt+iDveayu+eZguWtuOezu+W+teiBmOWwiOS7u+ahiOWKqeeQhuaVmeaOiOS7peS4iuW4q+izh3wyMDI2LTA4LTE5",
     "title": "亞洲大學職能治療學系徵聘專任(案)助理教授以上師資",
     "school": "亞洲大學",
-    "dept": "職能治療學系",
+    "dept": "亞洲大學職能治療學系",
     "date": "2026-08-19",
-    "deadline": "-",
+    "deadline": "2026-11-30",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/95b7e44f-03a8-4844-9275-1f11e1488097?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30558",
     "tags": [
-      "臺中市"
+      "臺中市霧峰區"
     ]
   },
   {
@@ -8247,20 +8263,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/2b2b54d3-2cd9-4080-ab5b-6b7c2b18cb31?l=ch",
     "tags": [
       "臺中市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Zm95piO5Lqk6YCa5aSn5a24fOWci+eri+mZveaYjuS6pOmAmuWkp+WtuOaVuOS9jemGq+WtuOaaqOaZuuaFp+mGq+eZgueglOeptuS4reW/g+W+teaxguWNmuWjq+W+jOeglOeptuWToXwyMDI2LTA3LTE4",
-    "title": "國立陽明交通大學數位醫學暨智慧醫療研究中心徵求博士後研究員",
-    "school": "國立陽明交通大學",
-    "dept": "數位醫學暨智慧醫療研究中心",
-    "date": "2026-07-18",
-    "deadline": "-",
-    "type": "postdoc",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/55464e2e-5c71-4823-bf9a-16e044f9f322?l=ch",
-    "tags": [
-      "臺北市"
     ]
   }
 ]
