@@ -1,30 +1,198 @@
 [
   {
+    "id": "5ZyL56uL6auY6ZuE56eR5oqA5aSn5a24fOWci+mrmOmbhOenkeaKgOWkp+WtuOiDvea6kOiIh+WHjeepuuiqv+W3peeoi+ezu+iqoOW+teiDvea6kOaIluWGt+WHjeepuuiqv+W3peeoi+Wfn+WwiOmVt+WwiOS7u+aIluWwiOahiOaVmeW4qzLlkI3llZ/kuot8MjAyNi0wOS0wMQ==",
+    "title": "國立高雄科技大學能源與冷凍空調工程系誠徵能源或冷凍空調工程領域專長專任或專案教師 2 名啟事",
+    "school": "國立高雄科技大學",
+    "dept": "能源與冷凍空調工程系",
+    "date": "2026-09-01",
+    "deadline": "2026-09-30",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30622",
+    "tags": [
+      "高雄市燕巢區"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6auY6ZuE56eR5oqA5aSn5a24fOWci+eri+mrmOmbhOenkeaKgOWkp+WtuOi7iui8m+W3peeoi+ezu+W+teiBmOWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA5LTAx",
+    "title": "國立高雄科技大學車輛工程系徵聘專任教師公告",
+    "school": "國立高雄科技大學",
+    "dept": "車輛工程系",
+    "date": "2026-09-01",
+    "deadline": "2026-09-30",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30623",
+    "tags": [
+      "高雄市燕巢區"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6IGv5ZCI5aSn5a24fOWci+eri+iBr+WQiOWkp+WtuOadkOaWmeenkeWtuOW3peeoi+WtuOezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuS4gOWQjXwyMDI2LTA5LTAx",
+    "title": "國立聯合大學材料科學工程學系誠徵專任助理教授(含)以上一名",
+    "school": "國立聯合大學",
+    "dept": "材料科學工程學系",
+    "date": "2026-09-01",
+    "deadline": "2026-09-10",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30631",
+    "tags": [
+      "苗栗縣苗栗市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL5Lit6IiI5aSn5a24fOWci+eri+S4reiIiOWkp+WtuOajruael+WtuOezu+W+teiBmOaVmeW4q+WFrOWRijExNjA4MDHotbfogZh8MjAyNi0wOS0wMQ==",
+    "title": "國立中興大學森林學系徵聘教師公告(1160801起聘)",
+    "school": "國立中興大學",
+    "dept": "森林學系",
+    "date": "2026-09-01",
+    "deadline": "2026-10-23",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30627",
+    "tags": [
+      "臺中市南區"
+    ]
+  },
+  {
+    "id": "5YWD5pm65aSn5a24fEZ1bGxUaW1lRmFjdWx0eVBvc2l0aW9uc0lFTVl1YW5aZVVuaXZlcnNpdHl8MjAyNi0wOS0wMQ==",
+    "title": "Full-Time Faculty Positions – IEM, Yuan Ze University",
+    "school": "元智大學",
+    "dept": "Department of Industrial Engineering and Management (IEM), Yuan Ze University",
+    "date": "2026-09-01",
+    "deadline": "2026-09-10",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30624",
+    "tags": [
+      "桃園市中壢區"
+    ]
+  },
+  {
+    "id": "5YWD5pm65aSn5a24fOWFg+aZuuWkp+WtuOW3pealreW3peeoi+iIh+euoeeQhuWtuOezu+iqoOW+tTExNTLlrbjmnJ/lsIjku7vmlZnluKsx5ZCNfDIwMjYtMDktMDE=",
+    "title": "元智大學 工業工程與管理學系 誠徵115-2學期 專任教師1名",
+    "school": "元智大學",
+    "dept": "元智大學工業工程與管理學系",
+    "date": "2026-09-01",
+    "deadline": "2026-09-10",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30625",
+    "tags": [
+      "桃園市中壢區"
+    ]
+  },
+  {
+    "id": "5YWD5pm65aSn5a24fOWFg+aZuuWkp+WtuOiXneihk+iIh+ioreioiOWtuOezuzExNTLlrbjmnJ/oqqDlvrXlsIjku7vmlZnluKsx5ZCNfDIwMjYtMDktMDE=",
+    "title": "元智大學藝術與設計學系115-2學期 誠徵專任教師1名",
+    "school": "元智大學",
+    "dept": "元智大學藝術與設計學系",
+    "date": "2026-09-01",
+    "deadline": "2026-09-20",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30629",
+    "tags": [
+      "桃園市中壢區"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6IGv5ZCI5aSn5a24fOWci+eri+iBr+WQiOWkp+WtuOizh+ioiueuoeeQhuWtuOezu+W+teiBmOWwiOS7u+aVmeW4q+WFqeWQjeW7tumVt+aUtuS7tuaIquatouaXpeacnzIwMjY5MjB8MjAyNi0wOS0wMQ==",
+    "title": "國立聯合大學資訊管理學系徵聘專任教師兩名(延長收件截止日期:2026/9/20)",
+    "school": "國立聯合大學",
+    "dept": "資訊管理學系",
+    "date": "2026-09-01",
+    "deadline": "2026-09-20",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30628",
+    "tags": [
+      "苗栗縣苗栗市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie65p2x5aSn5a24fOWci+eri+iHuuadseWkp+WtuOWcluabuOizh+ioiumkqOe2sui3r+acjeWLmee1hOW+teiBmOS4gOetieaKgOihk+W4qzHlkI18MjAyNi0wOS0wMQ==",
+    "title": "國立臺東大學圖書資訊館網路服務組徵聘一等技術師1名",
+    "school": "國立臺東大學",
+    "dept": "圖書資訊館網路服務組",
+    "date": "2026-09-01",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/b24e27f0-b18b-4d9c-9c6d-33863f9b0a16?l=ch",
+    "tags": [
+      "臺東縣"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie654Gj5bir56+E5aSn5a24fOWci+eri+iHuueBo+W4q+evhOWkp+WtuOiUoeS7iuS4reaVmeaOiOiqoOW+teWNmuWjq+W+jOeglOeptuWToXwyMDI2LTA5LTAx",
+    "title": "國立臺灣師範大學蔡今中教授誠徵博士後研究員",
+    "school": "國立臺灣師範大學",
+    "dept": "蔡今中教授",
+    "date": "2026-09-01",
+    "deadline": "-",
+    "type": "postdoc",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/eb709e3e-c0f3-41dd-9e27-ee9138d327cc?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
+    "id": "5piO5b+X56eR5oqA5aSn5a24fOaYjuW/l+enkeaKgOWkp+WtuOe2k+eHn+euoeeQhuezu+iqoOW+teWwiOS7u+aIluWwiOahiOaVmeW4qzIz5ZCNfDIwMjYtMDktMDE=",
+    "title": "明志科技大學經營管理系誠徵專任或專案教師2-3名",
+    "school": "明志科技大學",
+    "dept": "經營管理系",
+    "date": "2026-09-01",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/34faae8d-193e-43df-9df3-25207ff4d357?l=ch",
+    "tags": [
+      "新北市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie65p2x5aSn5a24fOWci+eri+iHuuadseWkp+WtuOWcluabuOizh+ioiumkqOezu+e1seeZvOWxlee1hOW+teiBmOS4ieetieaKgOihk+W4qzLlkI18MjAyNi0wOS0wMQ==",
+    "title": "國立臺東大學圖書資訊館系統發展組徵聘三等技術師2名",
+    "school": "國立臺東大學",
+    "dept": "圖書資訊館系",
+    "date": "2026-09-01",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/5e3a850d-c643-458e-b674-03036a9cdbbf?l=ch",
+    "tags": [
+      "臺東縣"
+    ]
+  },
+  {
     "id": "5ZyL56uL5pqo5Y2X5ZyL6Zqb5aSn5a24fOWci+eri+aaqOWNl+Wci+mam+Wkp+WtuOirruWVhuW/g+eQhuiIh+S6uuWKm+izh+a6kOeZvOWxleWtuOezu+iqoOW+teWwiOS7u+aVmeW4q3wyMDI2LTA4LTMx",
     "title": "國立暨南國際大學諮商心理與人力資源發展學系 誠徵專任教師",
     "school": "國立暨南國際大學",
     "dept": "諮商心理與人力資源發展學系",
     "date": "2026-08-31",
-    "deadline": "2026-10-12",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30620",
+    "source": "NSTC",
+    "link": "https://personnel.ncnu.edu.tw/p/404-1007-36838.php?Lang=zh-tw",
     "tags": [
-      "南投縣埔里鎮"
+      "南投縣"
     ]
   },
   {
     "id": "5ZyL56uL6IGv5ZCI5aSn5a24fOWci+eri+iBr+WQiOWkp+WtuOiqnuaWh+S4reW/g+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOS7peS4iuS4gOWQjXwyMDI2LTA4LTMx",
     "title": "國立聯合大學語文中心誠徵專任助理教授以上一名",
     "school": "國立聯合大學",
-    "dept": "國立聯合大學語文中心",
+    "dept": "語文中心",
     "date": "2026-08-31",
-    "deadline": "2026-09-30",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30616",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/f9c60091-dc7b-443d-9958-04c999487163?l=ch",
     "tags": [
-      "苗栗縣苗栗市"
+      "苗栗縣"
     ]
   },
   {
@@ -61,12 +229,12 @@
     "school": "靜宜大學",
     "dept": "管理學院",
     "date": "2026-08-31",
-    "deadline": "2026-09-13",
+    "deadline": "-",
     "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30615",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/7fc95009-bc57-41cc-b9a2-293962d137ff?l=ch",
     "tags": [
-      "臺中市沙鹿區"
+      "臺中市"
     ]
   },
   {
@@ -138,6 +306,124 @@
     "tags": [
       "臺中市"
     ]
+  },
+  {
+    "id": "5ZyL56uL6Ie65YyX5ZWG5qWt5aSn5a24fOWci+eri+iHuuWMl+WVhualreWkp+WtuOaVmeWtuOeZvOWxleS4reW/g+aVmeWtuOizh+a6kOe1hOioiOeVq+WKqeeQhnwyMDI2LTA4LTMx",
+    "title": "國立臺北商業大學教學發展中心教學資源組計畫助理",
+    "school": "國立臺北商業大學",
+    "dept": "教學發展中心",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/2eeaf71f-7487-49d9-b380-f4e5428cd595?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
+    "id": "6YCi55Sy5aSn5a24fOmAoueUsuWkp+WtuOW3peeoi+iIh+enkeWtuOWtuOmZouaHieeUqOaVuOWtuOezu+WwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaIlue0hOiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0wOC0zMQ==",
+    "title": "逢甲大學/工程與科學學院/應用數學系/專任助理教授(含以上)或約聘專任助理教授(含以上)1名",
+    "school": "逢甲大學",
+    "dept": "工程與科",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "project",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/3b5612ec-eee0-4ce0-bc30-fe2fd3e11898?l=ch",
+    "tags": [
+      "臺中市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie654Gj5bir56+E5aSn5a24fOWci+eri+iHuueBo+W4q+evhOWkp+WtuOadjumKmOadsOiAgeW4q+iqoOW+teeiqeWNmuWjq+e0muWFvOS7u+eglOeptuWKqeeQhnwyMDI2LTA4LTMx",
+    "title": "國立臺灣師範大學李銘杰老師 誠徵碩、博士級兼任研究助理",
+    "school": "國立臺灣師範大學",
+    "dept": "李銘杰老師",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/1d727c44-ba14-4208-9467-fdeddc831333?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
+    "id": "6LKh5ZyY5rOV5Lq65ZyL5a626KGb55Sf56CU56m26ZmifOiyoeWcmOazleS6uuWci+Wutuihm+eUn+eglOeptumZouWci+WutumrmOm9oemGq+WtuOaaqOWBpeW6t+emj+elieeglOeptuS4reW/g+WatOWYieaYjuiAgeW4q+eglOeptuWupOiqoOW+teeiqeWjq+e0mueglOeptuWKqeeQhuS4gOWQjXwyMDI2LTA4LTMx",
+    "title": "財團法人國家衛生研究院 國家高齡醫學暨健康福祉研究中心 嚴嘉明老師研究室 誠徵碩士級研究助理一名",
+    "school": "財團法人國家衛生研究院",
+    "dept": "國家高齡醫學暨健康福祉研究中心",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "assistant",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/1c022255-9974-4674-934f-8e19636713f2?l=ch",
+    "tags": [
+      "苗栗縣"
+    ]
+  },
+  {
+    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjlt6Xmpa3lt6XnqIvoiIfnrqHnkIbns7voqqDlvrXlsIjmoYjkurrlk6HmiKroh7MxMTXlubQ55pyIMTDml6XmraJ8MjAyNi0wOC0zMQ==",
+    "title": "【徵才】明新學校財團法人明新科技大學【工業工程與管理系】誠徵【專案人員】截至115年9月10日止",
+    "school": "徵才 明新學校財團法人明新科技大學",
+    "dept": "工業工程與管理系",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "project",
+    "source": "NSTC",
+    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=31854",
+    "tags": []
+  },
+  {
+    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjnoJTnmbzomZXnlKLlrbjlj4rnoJTnqbbmjqjli5XkuK3lv4PoqqDlvrXntITlg7Hkurrlk6HmiKroh7MxMTXlubQ55pyIMzDml6XmraJ8MjAyNi0wOC0zMQ==",
+    "title": "【徵才】明新學校財團法人明新科技大學【研發處-產學及研究推動中心】誠徵【約僱人員】截至115年9月30日止",
+    "school": "徵才 明新學校財團法人明新科技大學",
+    "dept": "研發處",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=31530",
+    "tags": []
+  },
+  {
+    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjpgYvli5Xkuovmpa3nrqHnkIbns7voqqDlvrXliJ3ntJrkuK3ntJrlnIvmsJHpq5Tpganog73mjIflsI7lk6HmiKroh7MxMTXlubQ55pyIMjXml6XmraJ8MjAyNi0wOC0zMQ==",
+    "title": "【徵才】明新學校財團法人明新科技大學 【運動事業管理系】誠徵【初級/中級國民體適能指導員】截至115年9月25日止",
+    "school": "徵才 明新學校財團法人明新科技大學",
+    "dept": "運動事業管理系",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=31858",
+    "tags": []
+  },
+  {
+    "id": "5ZyL56uL6Ie654Gj5bir56+E5aSn5a24fOWci+eri+iHuueBo+W4q+evhOWkp+WtuOawuOe6jOeuoeeQhuiIh+eSsOWig+aVmeiCsueglOeptuaJgOW+teaxguaVmeW4q3wyMDI2LTA4LTMx",
+    "title": "國立臺灣師範大學永續管理與環境教育研究所徵求教師",
+    "school": "國立臺灣師範大學",
+    "dept": "永續管理與環境教育研究所",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/a5655fab-3e6d-43d5-8d22-0368b4438f95?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
+    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjnoJTnmbzomZXmsLjnuoznmbzlsZXlj4rmoKHli5nnoJTnqbbkuK3lv4PoqqDlvrXntITogZjljZrlo6vlvoznoJTnqbblk6HmiKroh7MxMTXlubQ55pyIMzDml6XmraJ8MjAyNi0wOC0zMQ==",
+    "title": "【徵才】明新學校財團法人明新科技大學【研發處-永續發展及校務研究中心】誠徵【約聘博士後研究員】截至115年9月30日止",
+    "school": "徵才 明新學校財團法人明新科技大學",
+    "dept": "研發處",
+    "date": "2026-08-31",
+    "deadline": "-",
+    "type": "postdoc",
+    "source": "NSTC",
+    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=31468",
+    "tags": []
   },
   {
     "id": "5ZyL56uL5pS/5rK75aSn5a24fOWci+eri+aUv+ayu+Wkp+WtuOiqoOW+teaVmeiCsumDqDExNeW5tOS4reWwj+WtuOagoemVt+mgmOWwjuefpeiDveWwiOalreeZvOWxleirruipouioiOeVq+WwiOS7u+eglOeptuWKqeeQhnwyMDI2LTA4LTI5",
@@ -411,6 +697,34 @@
     "type": "faculty",
     "source": "NSTC",
     "link": "https://www.mc.ntu.edu.tw/bsnursing/News.action?q_type=-1&q_itemCode=12162",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie65Y2X5aSn5a24fOWci+eri+iHuuWNl+Wkp+WtuOizh+ioiuW3peeoi+WtuOezu+aWsOiBmOaVmeW4q+eUhOmBuOewoeeroHwyMDI2LTA4LTI4",
+    "title": "國立臺南大學資訊工程學系新聘教師甄選簡章",
+    "school": "國立臺南大學",
+    "dept": "資訊工程學系",
+    "date": "2026-08-28",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://personnel.nutn.edu.tw/mode05_02.asp?num=20260828074445958&page=1&t=list&c=",
+    "tags": [
+      "臺南市"
+    ]
+  },
+  {
+    "id": "6Ie65YyX5biC56uL5aSn5a24fOiHuuWMl+W4gueri+Wkp+WtuOenmOabuOWupOe0hOeUqOS6uuWToeeUhOmBuOewoeeroHwyMDI2LTA4LTI4",
+    "title": "臺北市立大學秘書室約用人員甄選簡章",
+    "school": "臺北市立大學",
+    "dept": "秘書室",
+    "date": "2026-08-28",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/14c4b0af-361a-4f0e-9290-d53f77014f2f?l=ch",
     "tags": [
       "臺北市"
     ]
@@ -767,28 +1081,28 @@
     "id": "5ZyL56uL5ZiJ576p5aSn5a24fOWci+eri+WYiee+qeWkp+WtuOWckuiXneWtuOezuzExNeWtuOW5tOW6puesrDLlrbjmnJ/lvrXogZjlsIjku7vliqnnkIbmlZnmjojlkKvku6XkuIoy5ZCNfDIwMjYtMDgtMjY=",
     "title": "國立嘉義大學園藝學系115學年度第2學期徵聘專任助理教授(含)以上2名",
     "school": "國立嘉義大學",
-    "dept": "園藝學系",
+    "dept": "農學院園藝學系",
     "date": "2026-08-26",
-    "deadline": "-",
+    "deadline": "2026-09-29",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/e5e0076e-7d2c-4e8b-86c8-5e1e7a909a19?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30599",
     "tags": [
-      "嘉義市"
+      "嘉義市東區"
     ]
   },
   {
     "id": "5Lit5ZyL5paH5YyW5aSn5a24fOS4reWci+aWh+WMluWkp+WtuDExNeWtuOW5tOW6puaWsOiBmOaVmeW4q+WFrOmWi+W+teaxguS6uuaJjeeQhuW3peWtuOmZoumbu+apn+W3peeoi+WtuOezu3wyMDI2LTA4LTI2",
     "title": "中國文化大學115學年度新聘教師公開徵求人才(理工學院電機工程學系)",
     "school": "中國文化大學",
-    "dept": "115學年度新聘教師公開徵求人才 理工學院",
+    "dept": "人事室",
     "date": "2026-08-26",
-    "deadline": "-",
+    "deadline": "2026-10-05",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/af660f6f-9703-4450-8348-e4c9a2239fa5?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30593",
     "tags": [
-      "臺北市"
+      "臺北市士林區"
     ]
   },
   {
@@ -797,26 +1111,26 @@
     "school": "國立臺北護理健康大學",
     "dept": "語言治療與聽力學系",
     "date": "2026-08-26",
-    "deadline": "-",
+    "deadline": "2026-09-30",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/52df2a7a-9806-4904-ae8d-49fcd3c369f1?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30598",
     "tags": [
-      "臺北市"
+      "臺北市北投區"
     ]
   },
   {
     "id": "5YWD5pm65aSn5a24fOWFg+aZuuWkp+WtuOmbu+apn+W3peeoi+WtuOezu+eUsue1hDExNTLlrbjmnJ/oqqDlvrXlsIjku7vmlZnluKsy5ZCNfDIwMjYtMDgtMjY=",
     "title": "元智大學電機工程學系甲組115-2學期 誠徵專任教師2名",
     "school": "元智大學",
-    "dept": "電機工程學系",
+    "dept": "元智大學電機工程學系甲組",
     "date": "2026-08-26",
-    "deadline": "-",
+    "deadline": "2026-09-30",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/7137592f-3d52-4cfb-b5d2-392b1a07b0a9?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30597",
     "tags": [
-      "桃園市"
+      "桃園市中壢區"
     ]
   },
   {
@@ -7959,322 +8273,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/126e6e0b-01e1-4c85-b7bc-a74dc58f4bc4?l=ch",
     "tags": [
       "桃園市"
-    ]
-  },
-  {
-    "id": "6LyU5LuB5aSn5a24fOi8lOS7geWkp+WtuOWtuOagoeiyoeWcmOazleS6uui8lOS7geWkp+WtuOWul+aVmeWtuOezu+iqoOW+teiqoOW+teWKqeeQhuaVmeaOiOe0muWQq+S7peS4iuWwiOS7u+WwiOahiOaVmeWtuOS6uuWToeaLm+WLn+iHszIwMjYwOTHmiKrmraJ8MjAyNi0wNy0yNw==",
-    "title": "輔仁大學學校財團法人輔仁大學－宗教學系誠徵誠徵助理教授級（含）以上專任／專案教學人員－招募至 2026-09-1 截止",
-    "school": "輔仁大學",
-    "dept": "學校財團法人輔仁大學－宗教學系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://reurl.cc/gNWG2Q",
-    "tags": [
-      "新北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Ie654Gj5aSn5a24fOWci+eri+iHuueBo+Wkp+WtuOaHieeUqOWKm+WtuOeglOeptuaJgOimuuWFg+W9meiAgeW4q+WFiOmAsumbt+WwhOijveeoi+iIh+adkOaWmeWvpumpl+WupOiqoOW+teWwiOS7u+eglOeptuWKqeeQhnwyMDI2LTA3LTI3",
-    "title": "國立臺灣大學應用力學研究所 覺元彙老師 先進雷射製程與材料實驗室 誠徵專任研究助理",
-    "school": "國立臺灣大學",
-    "dept": "應用力學研究所",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/b4839467-72cf-4717-8209-b26dda06f3fe?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "6YqY5YKz5aSn5a24fOmKmOWCs+Wkp+WtuOmrlOiCsuWupOiqoOW+teWFvOS7u+ism+W4q+WQq+S7peS4iuaVmeW4qzPlkI18MjAyNi0wNy0yNw==",
-    "title": "銘傳大學體育室誠徵兼任講師(含)以上教師3名",
-    "school": "銘傳大學",
-    "dept": "體育室",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "adjunct",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/4cf77611-4810-4c16-b805-0a34d4f3e398?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5riF6I+v5aSn5a24fOWci+eri+a4heiPr+Wkp+WtuOmGq+eSsOezu+iRieenqeWFieiAgeW4q+iqoOW+teWwiOS7u+eglOeptuWKqeeQhnwyMDI2LTA3LTI3",
-    "title": "國立清華大學醫環系 葉秩光老師 誠徵專任研究助理",
-    "school": "國立清華大學",
-    "dept": "醫環系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/13656a03-5b4b-4cf5-9f75-4f9754035dd0?l=ch",
-    "tags": [
-      "新竹市"
-    ]
-  },
-  {
-    "id": "5ZyL56eR5pyDfOmVt+W6mumGq+eZguiyoeWcmOazleS6uumrmOmbhOmVt+W6mue0gOW/temGq+mZouiDg+iFuOiCneiGveenkeaLm+WLn+WwiOS7u+eglOeptuWKqeeQhuS4gOWQjeiri+afpeeFp3wyMDI2LTA3LTI3",
-    "title": "長庚醫療財團法人高雄長庚紀念醫院胃腸肝膽科招募專任研究助理一名，請查照。",
-    "school": "國科會",
-    "dept": "詳見標題",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/f8526a57-35dc-4254-a18a-44f2960cf8cb?l=ch",
-    "tags": []
-  },
-  {
-    "id": "5ZyL56uL6Zm95piO5Lqk6YCa5aSn5a24fOWci+eri+mZveaYjuS6pOmAmuWkp+WtuOWPsOWNl+agoeWNgOWFiembu+WtuOmZouiqoOW+teWwiOS7u+aVmeW4q+aVuOWQjXwyMDI2LTA3LTI3",
-    "title": "國立陽明交通大學 台南校區 光電學院誠徵專任教師數名",
-    "school": "國立陽明交通大學",
-    "dept": "台南校區 光電學院",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://cop.nycu.edu.tw/tw/news_ii.html?ID=628",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5b615omNIOWci+eri+aUv+ayu+Wkp+WtuHzlvrXmiY3lnIvnq4vmlL/msrvlpKflrbjkurrlt6Xmmbrmhafot6jln5/noJTnqbbkuK3lv4NBSeS4reW/g+ioiOeVq+WwiOS7u+S6uuWKm3wyMDI2LTA3LTI3",
-    "title": "【徵才】國立政治大學人工智慧跨域研究中心(AI中心)計畫專任人力",
-    "school": "徵才 國立政治大學",
-    "dept": "人工智慧跨域研究中心",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://iaic.nccu.edu.tw/news/252",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "6Kqg5b615Y2a5aOr57Sa56CU56m25Yqp55CGIOWci+eri+iHuuS4reenkeaKgOWkp+WtuHzoqqDlvrXljZrlo6vntJrnoJTnqbbliqnnkIblnIvnq4voh7rkuK3np5HmioDlpKflrbjkvIHmpa3nrqHnkIbns7vmooHnq6Plh7HlvrXoqIjnlavliqnnkIZ8MjAyNi0wNy0yNw==",
-    "title": "[誠徵博士級研究助理]國立臺中科技大學企業管理系梁竣凱徵計畫助理",
-    "school": "誠徵博士級研究助理 國立臺中科技大學",
-    "dept": "企業管理系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/29cf0b5f-a57a-4ca6-ad3b-db56176510d9?l=ch",
-    "tags": [
-      "臺中市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6auY6ZuE56eR5oqA5aSn5a24fOWci+eri+mrmOmbhOenkeaKgOWkp+WtuOapn+mbu+W3peeoi+ezu+W+teiBmOWwiOS7u+aVmeW4q+WVn+S6i3wyMDI2LTA3LTI3",
-    "title": "國立高雄科技大學機電工程系徵聘專任教師啟事",
-    "school": "國立高雄科技大學",
-    "dept": "機電工程系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/655b5686-9283-494d-83aa-d39c767b553c?l=ch",
-    "tags": [
-      "高雄市"
-    ]
-  },
-  {
-    "id": "6ZW35bqa5aSn5a24fOmVt+W6muWkp+WtuOiBt+iDveayu+eZguWtuOezu+ipueS9qeepjuiAgeW4q+iqoOW+teWwiOS7u+eglOeptuWKqeeQhnwyMDI2LTA3LTI3",
-    "title": "長庚大學職能治療學系 詹佩穎老師誠徵專任研究助理",
-    "school": "長庚大學",
-    "dept": "職能治療學系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/c2ef7fcf-1b84-4472-ba11-f9007af5d975?l=ch",
-    "tags": [
-      "桃園市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5riF6I+v5aSn5a24fOWci+eri+a4heiPr+Wkp+WtuOmGq+eSsOezu+iRieenqeWFieiAgeW4q+iqoOW+teWNmuWjq+W+jOeglOeptnwyMDI2LTA3LTI3",
-    "title": "國立清華大學醫環系 葉秩光老師 誠徵博士後研究",
-    "school": "國立清華大學",
-    "dept": "醫環系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "postdoc",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/8a4016ee-4dbc-456e-b247-1bb8046fdfd0?l=ch",
-    "tags": [
-      "新竹市"
-    ]
-  },
-  {
-    "id": "5b615omNIOWci+eri+S4reiIiOWkp+WtuHzlvrXmiY3lnIvnq4vkuK3oiIjlpKflrbjpgYvli5XoiIflgaXlurfnrqHnkIbnoJTnqbbmiYDlh4zmgKHlqbfogIHluKvlvrXlhbzku7vooYzmlL/liqnnkIZ8MjAyNi0wNy0yNw==",
-    "title": "【徵才】國立中興大學運動與健康管理研究所凌怡婷老師徵兼任行政助理",
-    "school": "徵才 國立中興大學",
-    "dept": "運動與健康管理研究所",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "adjunct",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/2a04cee7-eeab-4ee2-b490-622a276a8d1f?l=ch",
-    "tags": [
-      "臺中市"
-    ]
-  },
-  {
-    "id": "5b615omNIOaYjuaWsOWtuOagoeiyoeWcmOazleS6uuaYjuaWsOenkeaKgOWkp+WtuHzlvrXmiY3mmI7mlrDlrbjmoKHosqHlnJjms5XkurrmmI7mlrDnp5HmioDlpKflrbjmmYLlsJrpgKDlnovoiIfoqK3oqIjns7voqqDlvrXntITlg7Hkurrlk6Hnr4Doh7MxMTXlubQ45pyIMTPml6XmraJ8MjAyNi0wNy0yNw==",
-    "title": "【徵才】明新學校財團法人明新科技大學【時尚造型與設計系】誠徵【約僱人員】節至115年8月13日止",
-    "school": "徵才 明新學校財團法人明新科技大學",
-    "dept": "時尚造型與設計系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "other",
-    "source": "NSTC",
-    "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=31559",
-    "tags": []
-  },
-  {
-    "id": "5ZyL56uL5Lit5q2j5aSn5a24fOWci+eri+S4reato+Wkp+WtuOaVmeiCsuWtuOeglOeptuaJgOW+teiBmOWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA3LTI3",
-    "title": "國立中正大學教育學研究所徵聘專任教師公告",
-    "school": "國立中正大學",
-    "dept": "教育學研究所",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://deptedu.ccu.edu.tw/p/404-1231-92863.php?Lang=zh-tw",
-    "tags": [
-      "嘉義縣"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5oiQ5Yqf5aSn5a24fOWci+eri+aIkOWKn+Wkp+WtuOWMluW3peezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaVmeW4q0ZhY3VsdHlQb3NpdGlvbnNPcGVuaW5naW5DaGVtaWNhbEVuZ2luZWVyaW5nTmF0aW9uYWxDaGVuZ0t1bmdVbml2ZXJzaXR5VGFpd2FuYXBwbGljYXRpb25ieUF1ZzMxMjAyNnwyMDI2LTA3LTI3",
-    "title": "國立成功大學化工系誠徵專任助理教授(含)以上教師Faculty Positions Opening in Chemical Engineering, National Cheng Kung University, Taiwan (application by Aug. 31, 2026)",
-    "school": "國立成功大學",
-    "dept": "化工系",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://che.ncku.edu.tw/p/406-1220-302199,r11.php?Lang=zh-tw",
-    "tags": [
-      "臺南市"
-    ]
-  },
-  {
-    "id": "5ZyL56eR5pyDfOWci+WutuaVmeiCsueglOeptumZouaVmeiCsuS6uuWKm+eZvOWxleS4reW/g+iqoOW+teWtuOWjq+e0muWwiOahiOWKqeeQhjHlkI18MjAyNi0wNy0yNw==",
-    "title": "國家教育研究院教育人力發展中心－誠徵學士級專案助理1名",
-    "school": "國科會",
-    "dept": "詳見標題",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "project",
-    "source": "NSTC",
-    "link": "https://www.naer.edu.tw/PageDoc/Detail?fid=78&id=5581",
-    "tags": []
-  },
-  {
-    "id": "6ZW35bqa5aSn5a24fOmVt+W6muWkp+WtuOWIhumGq+S4reW/g+iqoOW+teWwiOS7u+eglOeptuWKqeeQhnwyMDI2LTA3LTI3",
-    "title": "長庚大學分醫中心_誠徵專任研究助理",
-    "school": "長庚大學",
-    "dept": "分醫中心",
-    "date": "2026-07-27",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/b3e1459b-99ce-42f6-b89f-b29e54ff7615?l=ch",
-    "tags": [
-      "桃園市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Ie65YyX56eR5oqA5aSn5a24fOWci+eri+iHuuWMl+enkeaKgOWkp+WtuOaZuuaFp+iyoeeUouasiueglOeptuaJgDExNeWtuOW5tOW6puesrDLlrbjmnJ/lvrXogZjliqnnkIbmlZnmjojku6XkuIrlsIjku7vmlZnluKsx5ZCN5b615omN5YWs5ZGKfDIwMjYtMDctMjY=",
-    "title": "國立臺北科技大學智慧財產權研究所115學年度第2學期徵聘助理教授以上專任教師1名徵才公告",
-    "school": "國立臺北科技大學",
-    "dept": "智慧財產權研究所",
-    "date": "2026-07-26",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/4ff3bf54-9904-4f37-8370-936c418cce70?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5Lit5bGx6Yar5a245aSn5a24fOS4reWxsemGq+WtuOWkp+WtuOiBt+alreWuieWFqOihm+eUn+WtuOezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOS7peS4ijHlkI3mlLbku7boh7MxMTUwOTA3fDIwMjYtMDctMjQ=",
-    "title": "中山醫學大學職業安全衛生學系誠徵專任助理教授以上1名(收件至115/09/07)",
-    "school": "中山醫學大學",
-    "dept": "職業安全衛生學系",
-    "date": "2026-07-24",
-    "deadline": "2026-09-07",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30371",
-    "tags": [
-      "臺中市南區"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Ie65Lit56eR5oqA5aSn5a24fOWci+eri+iHuuS4reenkeaKgOWkp+WtuOmAmuitmOaVmeiCsuS4reW/g+iqoOW+teWci+aWh+WwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA3LTI0",
-    "title": "國立臺中科技大學通識教育中心誠徵國文專任教師公告",
-    "school": "國立臺中科技大學",
-    "dept": "通識教育中心",
-    "date": "2026-07-24",
-    "deadline": "2026-08-24",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30374",
-    "tags": [
-      "臺中市北區"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Ie65Lit56eR5oqA5aSn5a24fOWci+eri+iHuuS4reenkeaKgOWkp+WtuOmAmuitmOaVmeiCsuS4reW/g+iqoOW+teatt+WPsuWwiOS7u+aVmeW4q+WFrOWRinwyMDI2LTA3LTI0",
-    "title": "國立臺中科技大學通識教育中心誠徵歷史專任教師公告",
-    "school": "國立臺中科技大學",
-    "dept": "通識教育中心",
-    "date": "2026-07-24",
-    "deadline": "2026-08-24",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30373",
-    "tags": [
-      "臺中市北區"
-    ]
-  },
-  {
-    "id": "5Lit5bGx6Yar5a245aSn5a24fOS4reWxsemGq+WtuOWkp+WtuOimluWFieWtuOezu+iqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOS7peS4ijLlkI3mlLbku7boh7MxMTUwOTE1fDIwMjYtMDctMjQ=",
-    "title": "中山醫學大學視光學系誠徵專任助理教授以上2名(收件至115/09/15)",
-    "school": "中山醫學大學",
-    "dept": "視光學系",
-    "date": "2026-07-24",
-    "deadline": "2026-09-15",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30372",
-    "tags": [
-      "臺中市南區"
-    ]
-  },
-  {
-    "id": "6ZW35bqa5aSn5a24fOmVt+W6muWkp+WtuOiHqOW6iumGq+WtuOeglOeptuaJgOW+teiBmOWwiOS7u+aVmeW4q3wyMDI2LTA3LTI0",
-    "title": "長庚大學 臨床醫學研究所 徵聘專任教師",
-    "school": "長庚大學",
-    "dept": "臨床醫學研究所",
-    "date": "2026-07-24",
-    "deadline": "2026-09-30",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30369",
-    "tags": [
-      "高雄市鳥松區"
     ]
   }
 ]
