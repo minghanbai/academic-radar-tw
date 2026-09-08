@@ -28,6 +28,34 @@
     ]
   },
   {
+    "id": "5YWD5pm65aSn5a24fEZhY3VsdHlQb3NpdGlvbk9wZW5pbmdpbnRoZURlcGFydG1lbnRvZkVsZWN0cmljYWxFbmdpbmVlcmluZ1Byb2dyYW1DWXVhblplVW5pdmVyc2l0eXwyMDI2LTA5LTA4",
+    "title": "Faculty Position Opening in the Department of Electrical Engineering (Program C), Yuan Ze University",
+    "school": "元智大學",
+    "dept": "Department of Electrical Engineering (Program C)",
+    "date": "2026-09-08",
+    "deadline": "2026-09-30",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30682",
+    "tags": [
+      "桃園市中壢區"
+    ]
+  },
+  {
+    "id": "5YWD5pm65aSn5a24fOWFg+aZuuWkp+WtuOeuoeeQhuWtuOmZoue1hOe5lOeuoeeQhuWtuOe+pOiqoOW+tTExNTLlrbjmnJ/lsIjku7vmlZnluKsx5ZCNfDIwMjYtMDktMDg=",
+    "title": "元智大學管理學院組織管理學群 誠徵115-2學期專任教師1名",
+    "school": "元智大學",
+    "dept": "元智大學管理學院組織管理學群",
+    "date": "2026-09-08",
+    "deadline": "2026-09-25",
+    "type": "faculty",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30681",
+    "tags": [
+      "桃園市中壢區"
+    ]
+  },
+  {
     "id": "6Ie65YyX6Yar5a245aSn5a24fOiHuuWMl+mGq+WtuOWkp+WtuOiXpeWtuOmZouiXpeWtuOezu+iXpeeJqeenkeWtuOWtuOenkeiqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI3lhazlkYroh7MxMTYwMjI45oiq5q2ifDIwMjYtMDktMDc=",
     "title": "臺北醫學大學藥學院藥學系藥物科學學科誠徵專任助理教授(含)以上1名(公告至116.02.28截止)",
     "school": "臺北醫學大學",
@@ -367,12 +395,12 @@
     "school": "國立臺中教育大學",
     "dept": "教師專業碩士學位學程",
     "date": "2026-09-03",
-    "deadline": "2026-10-02",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30656",
+    "source": "NSTC",
+    "link": "https://2023ntcu.ntcu.edu.tw/Tag/PostDoc?ID=14268",
     "tags": [
-      "臺中市西區"
+      "臺中市"
     ]
   },
   {
@@ -8238,33 +8266,5 @@
     "source": "NSTC",
     "link": "https://admin.must.edu.tw/news/page.aspx?UnitID=76&id=31369",
     "tags": []
-  },
-  {
-    "id": "6auY6ZuE6Yar5a245aSn5a24fOmrmOmbhOmGq+WtuOWkp+WtuOmGq+WtuOeglOeptuaJgOadjuS9s+mZveiAgeW4q+iqoOW+teeiqeWjq+e0muWKqeeQhuiIh+WNmuWjq+W+jOeglOeptuWToeWQhOS4gOWQjXwyMDI2LTA4LTAy",
-    "title": "高雄醫學大學醫學研究所李佳陽老師誠徵碩士級助理與博士後研究員各一名",
-    "school": "高雄醫學大學",
-    "dept": "醫學研究所",
-    "date": "2026-08-02",
-    "deadline": "-",
-    "type": "postdoc",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/31a09391-9cf5-4d09-969f-6241e59dff96?l=ch",
-    "tags": [
-      "高雄市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5pS/5rK75aSn5a24fOWci+eri+aUv+ayu+Wkp+WtuOaVmeiCsuWtuOezu+mZs+amruaUv+aVmeaOiOWFvOS4u+S7u+iqoOW+teaVmeiCsumDqDExNeW5tOS4reWwj+WtuOagoemVt+mgmOWwjuefpeiDveWwiOalreeZvOWxleirruipouioiOeVq+WwiOS7u+eglOeptuWKqeeQhnwyMDI2LTA4LTAy",
-    "title": "國立政治大學教育學系陳榮政教授兼主任 誠徵「教育部115年中小學校長領導知能專業發展諮詢計畫」 專任研究助理",
-    "school": "國立政治大學",
-    "dept": "教育學系",
-    "date": "2026-08-02",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/61227941-3087-46b1-8b99-e9b0f6612dcd?l=ch",
-    "tags": [
-      "臺北市"
-    ]
   }
 ]
