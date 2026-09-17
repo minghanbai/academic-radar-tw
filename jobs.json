@@ -173,12 +173,12 @@
     "school": "國立成功大學",
     "dept": "國際企業研究所",
     "date": "2026-09-16",
-    "deadline": "-",
+    "deadline": "2026-10-07",
     "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/cb7e0893-24fd-47a1-a1da-3f9a58052416?l=ch",
+    "source": "MOE",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30740",
     "tags": [
-      "臺南市"
+      "臺南市東區"
     ]
   },
   {
@@ -243,12 +243,12 @@
     "school": "中山醫學大學",
     "dept": "牙醫學系",
     "date": "2026-09-16",
-    "deadline": "2026-12-15",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30744",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/22d025dc-16c6-46f9-8514-b8d4e64d35ba?l=ch",
     "tags": [
-      "臺中市南區"
+      "臺中市"
     ]
   },
   {
@@ -563,6 +563,34 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/f5ef1a0e-5559-4f95-8be7-4ae515a7573d?l=ch",
     "tags": [
       "臺南市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie654Gj5aSn5a24fOWci+eri+iHuueBo+Wkp+WtuOmGq+WtuOmZoumZs+S9s+aFp+iAgeW4q+iqoOW+teWci+enkeacg+ioiOeVq+ijnOWKqeWNmuWjq+W+jOeglOeptuWToeS4gOWQjXwyMDI2LTA5LTE2",
+    "title": "國立臺灣大學醫學院陳佳慧老師誠徵國科會計畫補助博士後研究員一名",
+    "school": "國立臺灣大學",
+    "dept": "醫學院",
+    "date": "2026-09-16",
+    "deadline": "-",
+    "type": "postdoc",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/7256fa6c-2006-4852-8d02-4c8214e2db12?l=ch",
+    "tags": [
+      "臺北市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie654Gj5aSn5a24fOWci+eri+iHuueBo+Wkp+WtuOW3peWVhueuoeeQhuWtuOezu+aaqOWVhuWtuOeglOeptuaJgOiqoOW+teWwiOS7u+aVmeW4q0ZBQ1VMVFlQT1NJVElPTlNPUEVOSU5HfDIwMjYtMDktMTY=",
+    "title": "國立臺灣大學_工商管理學系暨商學研究所誠徵專任教師FACULTY POSITIONS OPENING",
+    "school": "國立臺灣大學",
+    "dept": "_工商管理學系",
+    "date": "2026-09-16",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/2256b4b3-7347-11e6-aba2-005056826649?l=ch",
+    "tags": [
+      "臺北市"
     ]
   },
   {
@@ -8235,34 +8263,6 @@
     "link": "https://www.ev.nchu.edu.tw/index.asp?uno=12&cno=5&ano=4318",
     "tags": [
       "臺中市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5p2x6I+v5aSn5a24fOW+tOiBmOWFrOWRiuWci+eri+adseiPr+Wkp+WtuOaHieeUqOaVuOWtuOezu+W+teiBmOWwiOS7u+aVmeW4qzExNTA4MTJ8MjAyNi0wOC0xMg==",
-    "title": "【徴聘公告】國立東華大學 應用數學系 徵聘專任教師(1150812)",
-    "school": "國立東華大學",
-    "dept": "應用數學系",
-    "date": "2026-08-12",
-    "deadline": "2026-12-31",
-    "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30521",
-    "tags": [
-      "花蓮縣壽豐鄉"
-    ]
-  },
-  {
-    "id": "5byY5YWJ56eR5oqA5aSn5a24fOW8mOWFieenkeaKgOWkp+WtuOmjn+WTgeenkeaKgOezu+WwiOahiOaIluWwiOS7u+WKqeeQhuaVmeaOiOS7peS4iuW4q+izh3wyMDI2LTA4LTEy",
-    "title": "弘光科技大學【食品科技系】專案或專任助理教授以上師資",
-    "school": "弘光科技大學",
-    "dept": "人事室",
-    "date": "2026-08-12",
-    "deadline": "2026-08-27",
-    "type": "project",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=30520",
-    "tags": [
-      "臺中市沙鹿區"
     ]
   }
 ]
