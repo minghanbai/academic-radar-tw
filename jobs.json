@@ -253,14 +253,14 @@
     "id": "6ZW35bqa5aSn5a24fOmVt+W6muWkp+WtuOizh+eUoueuoeeQhueglOeptuaJgOiqoOW+teWKqeeQhuaVmeaOiOWQq+S7peS4iuiBt+e0muS5i+WwiOS7u+aVmeW4qzLlkI18MjAyNi0xMC0xNg==",
     "title": "長庚大學資產管理研究所誠徵助理教授(含)以上職級之專任教師2名",
     "school": "長庚大學",
-    "dept": "管理學院資產管理研究所",
+    "dept": "資產管理研究所",
     "date": "2026-10-16",
-    "deadline": "2026-12-31",
+    "deadline": "-",
     "type": "faculty",
-    "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=31038",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/707a2936-2b86-4ea9-bb6b-323d1246ba89?l=ch",
     "tags": [
-      "桃園市龜山區"
+      "桃園市"
     ]
   },
   {
@@ -597,6 +597,34 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/15b3b28f-84a0-4964-a44f-971e40af418d?l=ch",
     "tags": [
       "桃園市"
+    ]
+  },
+  {
+    "id": "6YCi55Sy5aSn5a24fOmAoueUsuWkp+WtuOmHkeiejeWtuOmZouiyoeWLmemHkeiejeWtuOezu+WwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaIlue0hOiBmOWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4ijHlkI18MjAyNi0xMC0xNg==",
+    "title": "逢甲大學/金融學院/財務金融學系/專任助理教授(含以上)或約聘專任助理教授(含以上)1名",
+    "school": "逢甲大學",
+    "dept": "金融學院",
+    "date": "2026-10-16",
+    "deadline": "-",
+    "type": "project",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/56584ae0-55c0-4712-a467-d14052b30d26?l=ch",
+    "tags": [
+      "臺中市"
+    ]
+  },
+  {
+    "id": "5Lit5aSu56CU56m26ZmifOS4reWkrueglOeptumZoumXnOmNteitsOmhjOeglOeptuS4reW/g+WNl+mDqOmZouWNgOiqoOW+teWwiOS7u+ihjOaUv+WKqeeQhuatoei/jui6q+W/g+manOekmeiAhXwyMDI2LTEwLTE2",
+    "title": "中央研究院關鍵議題研究中心(南部院區)誠徵專任行政助理 (歡迎身心障礙者)",
+    "school": "中央研究院",
+    "dept": "關鍵議題研究中心",
+    "date": "2026-10-16",
+    "deadline": "-",
+    "type": "faculty",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/731be221-7093-4288-b847-47cf37d697c0?l=ch",
+    "tags": [
+      "臺北市"
     ]
   },
   {
@@ -8291,34 +8319,6 @@
     "type": "postdoc",
     "source": "NSTC",
     "link": "https://www.nstc.gov.tw/folksonomy/detail/33af9811-ed0c-49e7-8c6c-b9ac1fca845e?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Ie654Gj56eR5oqA5aSn5a24fOWci+eri+iHuueBo+enkeaKgOWkp+WtuOizh+ioiueuoeeQhuezu+W+teaxguWwiOS7u+aVmeW4q+S7peS4ijLlkI18MjAyNi0wOS0xNg==",
-    "title": "國立臺灣科技大學資訊管理系徵求專任教師以上2名",
-    "school": "國立臺灣科技大學",
-    "dept": "資訊管理系",
-    "date": "2026-09-16",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.personnel.ntust.edu.tw/p/406-1066-151480,r1870.php?Lang=zh-tw",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL6Zm95piO5Lqk6YCa5aSn5a24fOWci+eri+mZveaYjuS6pOmAmuWkp+WtuOeUn+iXpeaJgOebp+WtkOWWrOiAgeW4q+Wvpumpl+WupOiqoOW+teWwiOS7u+WKqeeQhjHlkI18MjAyNi0wOS0xNg==",
-    "title": "國立陽明交通大學生藥所盧子喬老師實驗室誠徵【專任助理】1名",
-    "school": "國立陽明交通大學",
-    "dept": "生藥所",
-    "date": "2026-09-16",
-    "deadline": "-",
-    "type": "assistant",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/0e342cd4-362f-415d-97bf-95da5957f7d6?l=ch",
     "tags": [
       "臺北市"
     ]
