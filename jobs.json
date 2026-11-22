@@ -330,7 +330,7 @@
     "deadline": "2027-01-13",
     "type": "faculty",
     "source": "MOE",
-    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=31575",
+    "link": "https://tjn.moe.edu.tw/EduJin/Opening/Detail?num=31577",
     "tags": [
       "臺北市大安區"
     ]
@@ -812,6 +812,20 @@
     ]
   },
   {
+    "id": "5b615omNIOWci+eri+aIkOWKn+Wkp+WtuHzlvrXmiY3lnIvnq4vmiJDlip/lpKflrbjlnIvlnJ/noJTnqbbkuK3lv4PljZrlo6vlvoznoJTnqbblk6Hpg73luILoqIjnlavopo/lioPlsIjmiY18MjAyNi0xMS0xOQ==",
+    "title": "【徵才】國立成功大學國土研究中心：博士後研究員（都市計畫/規劃專才）",
+    "school": "徵才 國立成功大學",
+    "dept": "國土研究中心",
+    "date": "2026-11-19",
+    "deadline": "-",
+    "type": "postdoc",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/12dd5b4e-0d4d-4fae-a9ad-e710e28e046d?l=ch",
+    "tags": [
+      "臺南市"
+    ]
+  },
+  {
     "id": "5ZyL56uL6auY6ZuE56eR5oqA5aSn5a24fOWci+eri+mrmOmbhOenkeaKgOWkp+WtuOizh+ioiueuoeeQhuezu+iqoOW+teWwiOS7u+aVmeW4q+W+teaJjeWFrOWRiuWFp+WuuXwyMDI2LTExLTE4",
     "title": "國立高雄科技大學資訊管理系誠徵專任教師徵才公告內容",
     "school": "國立高雄科技大學",
@@ -1237,6 +1251,20 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/eff28cf2-1df2-4edc-b89b-0c64c23bc186?l=ch",
     "tags": [
       "臺北市"
+    ]
+  },
+  {
+    "id": "5ZyL56uL6Ie65p2x5aSn5a24fOWci+eri+iHuuadseWkp+WtuOWcluabuOizh+ioiumkqOe2sui3r+acjeWLmee1hOW+teiBmOS4gOetieaKgOihk+W4qzHlkI3mlLbku7boh7MxMTXlubQxMuaciDfml6V8MjAyNi0xMS0xOA==",
+    "title": "國立臺東大學圖書資訊館網路服務組徵聘一等技術師1名(收件至115年12月7日)",
+    "school": "國立臺東大學",
+    "dept": "圖書資訊館網路服務組",
+    "date": "2026-11-18",
+    "deadline": "-",
+    "type": "other",
+    "source": "NSTC",
+    "link": "https://www.nstc.gov.tw/folksonomy/detail/5b333a8b-0650-400a-98d0-6de7e2da5b51?l=ch",
+    "tags": [
+      "臺東縣"
     ]
   },
   {
@@ -8283,34 +8311,6 @@
     "link": "https://www.nstc.gov.tw/folksonomy/detail/4ec97bce-5f14-4691-b585-1b7f95a1efbc?l=ch",
     "tags": [
       "臺北市"
-    ]
-  },
-  {
-    "id": "5Lit5aSu56CU56m26ZmifOS4reWkrueglOeptumZouiqnuiogOWtuOeglOeptuaJgOiqoOW+teihjOaUv+WKqeeQhuS4gOWQjXwyMDI2LTEwLTI4",
-    "title": "中央研究院語言學研究所誠徵行政助理一名",
-    "school": "中央研究院",
-    "dept": "語言學研究所",
-    "date": "2026-10-28",
-    "deadline": "-",
-    "type": "other",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/648b951a-ef16-4527-ac3b-7eee962ca8ef?l=ch",
-    "tags": [
-      "臺北市"
-    ]
-  },
-  {
-    "id": "5ZyL56uL5oiQ5Yqf5aSn5a24fOWci+eri+aIkOWKn+Wkp+WtuOWJteaEj+eUoualreioreioiOeglOeptuaJgOiqoOW+teWwiOS7u+WKqeeQhuaVmeaOiOWQq+S7peS4iuaVmeW4qzHlkI18MjAyNi0xMC0yOA==",
-    "title": "國立成功大學創意產業設計研究所 誠徵專任助理教授(含)以上教師1名",
-    "school": "國立成功大學",
-    "dept": "創意產業設計研究所",
-    "date": "2026-10-28",
-    "deadline": "-",
-    "type": "faculty",
-    "source": "NSTC",
-    "link": "https://www.nstc.gov.tw/folksonomy/detail/56cffa0a-9021-4a5a-8b88-26e7b254e7bc?l=ch",
-    "tags": [
-      "臺南市"
     ]
   }
 ]
